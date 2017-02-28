@@ -15,4 +15,13 @@
         <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
         <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
     </style>
+
+    <style name="OutlineText">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:shadowColor">@color/text_outline</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">0</item>
+        <item name="android:shadowRadius">@dimen/outline_text_large_radius</item>
+    </style>
+
 </resources>

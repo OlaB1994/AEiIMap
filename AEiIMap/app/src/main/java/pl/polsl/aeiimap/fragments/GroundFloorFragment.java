@@ -11,7 +11,9 @@ import android.view.ViewGroup;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 import pl.polsl.aeiimap.R;
+import pl.polsl.aeiimap.dialogs.InfoDialogFragment;
 import pl.polsl.aeiimap.gestures.OnPinchListener;
 import pl.polsl.aeiimap.views.ZoomableRelativeLayout;
 
@@ -22,6 +24,12 @@ public class GroundFloorFragment extends Fragment {
 
     @BindView(R.id.fragment_ground_floor_zoomable_rl)
     ZoomableRelativeLayout zoomableRelativeLayout;
+
+    @OnClick(R.id.fragment_ground_floor_503_ib)
+    public void on503(){
+        InfoDialogFragment.newInstance(getContext())
+                .show(getActivity().getSupportFragmentManager(), InfoDialogFragment.class.getName());
+    }
 
     @Nullable
     @Override

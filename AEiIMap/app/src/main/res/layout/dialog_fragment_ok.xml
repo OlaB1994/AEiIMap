@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.PianoTouch.classicNoAd.views.DialogLayout
+<pl.polsl.aeiimap.views.DialogLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/dialog_fragment_info_layout"
     style="@style/custom_dialog_style">
@@ -10,4 +10,4 @@
         android:id="@+id/dialog_fragment_info_ok_btn"
         android:layout_height="wrap_content" />
 
-</com.PianoTouch.classicNoAd.views.DialogLayout>
+</pl.polsl.aeiimap.views.DialogLayout>

@@ -2,4 +2,6 @@
     <dimen name="normal_margin">15dp</dimen>
 
     <dimen name="floor_button_size">45dp</dimen>
+
+    <item name="outline_text_large_radius" format="integer" type="dimen">8</item>
 </resources>
