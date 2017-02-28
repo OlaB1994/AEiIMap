@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<pl.polsl.aeiimap.views.ZoomableRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/fragment_ground_floor_zoomable_rl"
     android:layout_height="match_parent">
 
     <TextView
@@ -8,4 +9,4 @@
         android:layout_height="wrap_content"
         android:text="GROUND_FLOOR"/>
 
-</LinearLayout>
+</pl.polsl.aeiimap.views.ZoomableRelativeLayout>

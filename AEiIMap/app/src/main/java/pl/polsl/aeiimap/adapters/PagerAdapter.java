@@ -13,9 +13,9 @@ import pl.polsl.aeiimap.fragments.SecondFloorFragment;
  */
 public class PagerAdapter extends FragmentStatePagerAdapter {
 
-    public static final int GROUND_FLOOR = 0;
+    public static final int GROUND_FLOOR = 2;
     public static final int FIRST_FLOOR = 1;
-    public static final int SECOND_FLOOR = 2;
+    public static final int SECOND_FLOOR = 0;
     public static final int PAGER_COUNTER = 3;
 
     private Fragment currentFragment;
@@ -45,10 +45,6 @@ public class PagerAdapter extends FragmentStatePagerAdapter {
     @Override
     public int getCount() {
         return PAGER_COUNTER;
-    }
-
-    public Fragment getCurrentFragment() {
-        return currentFragment;
     }
 }
 

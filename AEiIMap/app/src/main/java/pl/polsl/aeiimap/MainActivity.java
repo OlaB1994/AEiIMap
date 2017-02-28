@@ -18,17 +18,17 @@ public class MainActivity extends AppCompatActivity {
 
     @OnClick(R.id.activity_main_floor_up_ib)
     public void onUp() {
-        if (currentFloor == PagerAdapter.PAGER_COUNTER - 1)
+        if (currentFloor < 1)
             return;
-        currentFloor++;
+        currentFloor--;
         viewPager.setCurrentItem(currentFloor);
     }
 
     @OnClick(R.id.activity_main_floor_down_ib)
     public void onDown() {
-        if (currentFloor < 1)
+        if (currentFloor == PagerAdapter.PAGER_COUNTER - 1)
             return;
-        currentFloor--;
+        currentFloor++;
         viewPager.setCurrentItem(currentFloor);
     }
 
