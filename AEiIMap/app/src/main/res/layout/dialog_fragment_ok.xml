@@ -1,13 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<pl.polsl.aeiimap.views.DialogLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<pl.polsl.aeiimap.views.DialogLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/dialog_fragment_info_layout"
-    style="@style/custom_dialog_style">
+    style="@style/custom_dialog_style"
+    android:layout_gravity="center">
 
-    <Button
+    <LinearLayout
         android:layout_width="wrap_content"
-        android:text="OK"
-        android:id="@+id/dialog_fragment_info_ok_btn"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:background="@color/dialog_color_background_solid"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <pl.polsl.aeiimap.views.LightTextView
+                android:id="@+id/dialog_fragment_info_title_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="504"
+                android:textSize="@dimen/title_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/normal_margin"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/picture_width"
+                android:layout_height="@dimen/picture_height"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter" />
+
+            <pl.polsl.aeiimap.views.LightTextView
+                android:layout_width="@dimen/picture_width"
+                android:layout_height="@dimen/picture_height"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Lorem ipsum dolor sit amet"
+                android:textSize="@dimen/info_text_size" />
+
+        </LinearLayout>
+
+        <pl.polsl.aeiimap.views.TextButton
+            android:id="@+id/dialog_fragment_info_ok_btn"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:layout_gravity="center"
+            android:text="OK" />
+    </LinearLayout>
+
 
 </pl.polsl.aeiimap.views.DialogLayout>

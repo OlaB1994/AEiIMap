@@ -15,3 +15,17 @@ u
 Eapp/src/main/java/pl/polsl/aeiimap/fragments/GroundFloorFragment.java,5/c/5c8c4efa0c2334be7bbd0aa9eebbd8d4164535a5
 u
 Eapp/src/main/java/pl/polsl/aeiimap/fragments/SecondFloorFragment.java,a/c/ac43a475dc1ca7b166f00c5cf83acd6abd95e25b
+j
+:app/src/main/java/pl/polsl/aeiimap/views/DialogLayout.java,4/1/41c8fe5a9579ee38e216a8c468c47705f70cd063
+t
+Dapp/src/main/java/pl/polsl/aeiimap/views/ZoomableRelativeLayout.java,8/8/888ab9ce75198ee9bed39bfd5480662a82d2b80e
+p
+@app/src/main/java/pl/polsl/aeiimap/gestures/OnPinchListener.java,5/c/5cba66eb8abf6179bc7c1f32f5de5cfe30868c79
+f
+6app/src/main/java/pl/polsl/aeiimap/views/TypeFace.java,b/5/b5ffbd32b3d7f444215f2779fc6397aa0ca61a9d
+r
+Bapp/src/main/java/pl/polsl/aeiimap/dialogs/InfoDialogFragment.java,7/2/720f369c677838364040caa3dc3800cc9441902e
+h
+8app/src/main/java/pl/polsl/aeiimap/views/TextButton.java,7/3/7328d97e78bcb5c7b6a383a0b3e8ca05e567a58c
+k
+;app/src/main/java/pl/polsl/aeiimap/views/LightTextView.java,1/d/1de0df92e130e2c79e61a4c0a357b8dce860c89e
