@@ -29,3 +29,9 @@ h
 8app/src/main/java/pl/polsl/aeiimap/views/TextButton.java,7/3/7328d97e78bcb5c7b6a383a0b3e8ca05e567a58c
 k
 ;app/src/main/java/pl/polsl/aeiimap/views/LightTextView.java,1/d/1de0df92e130e2c79e61a4c0a357b8dce860c89e
+c
+3app/src/main/java/pl/polsl/aeiimap/model/Floor.java,4/f/4f48233a93cce206365d1760b2788efeff533d20
+a
+1app/src/main/java/pl/polsl/aeiimap/model/Map.java,0/d/0d935d9ba8f413d29539fef3cd3c950178a6b5b9
+b
+2app/src/main/java/pl/polsl/aeiimap/model/Room.java,4/8/48346edb48c9a934b9026a9a881ea9cb273e9f9e

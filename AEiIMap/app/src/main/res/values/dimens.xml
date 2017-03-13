@@ -7,6 +7,7 @@
     <dimen name="picture_height">150sp</dimen>
     <dimen name="info_text_size">15sp</dimen>
     <dimen name="button_size">45dp</dimen>
+    <dimen name="first_floor_margin_roomA">10dp</dimen>
 
     <item name="outline_text_large_radius" format="integer" type="dimen">8</item>
 </resources>
