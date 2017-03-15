@@ -24,14 +24,13 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:orientation="vertical"
-                android:weightSum="15">
+                android:gravity="center"
+                android:orientation="vertical">
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="0dp"
+                    android:layout_height="@dimen/plan_dimen_top"
                     android:layout_marginLeft="@dimen/first_floor_margin_roomA"
-                    android:layout_weight="6"
                     android:orientation="horizontal"
                     android:weightSum="100">
 
@@ -171,10 +170,8 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="0dp"
-
+                    android:layout_height="@dimen/plan_dimen_center"
                     android:layout_marginLeft="@dimen/first_floor_margin_roomA"
-                    android:layout_weight="0.85"
                     android:background="@android:color/holo_red_light"
                     android:weightSum="40">
 
@@ -202,6 +199,7 @@
                         android:background="@android:color/white" />
 
                     <ImageButton
+                        android:id="@+id/imageButton3"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="6"
@@ -222,19 +220,16 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="0dp"
+                    android:layout_height="@dimen/plan_dimen_hall"
                     android:layout_gravity="center"
                     android:layout_marginLeft="@dimen/first_floor_margin_roomA"
-                    android:layout_weight="0.75"
                     android:gravity="center|left"
                     android:orientation="horizontal"></LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="0dp"
+                    android:layout_height="@dimen/plan_dimen_center"
                     android:layout_marginLeft="@dimen/first_floor_margin_roomA"
-
-                    android:layout_weight="0.85"
                     android:background="@android:color/holo_red_light"
                     android:weightSum="40">
 
@@ -256,14 +251,12 @@
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_gravity="center"
-                    android:layout_weight="0.35"
                     android:gravity="center|left"
                     android:orientation="horizontal"></LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_weight="6"
+                    android:layout_height="@dimen/plan_dimen_bottom"
                     android:orientation="horizontal"
                     android:weightSum="15">
 
@@ -284,6 +277,7 @@
 
 
                         <ImageButton
+                            android:id="@+id/imageButton2"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
                             android:layout_marginLeft="@dimen/first_floor_margin_roomA"
@@ -329,15 +323,13 @@
                 android:layout_height="match_parent"
                 android:layout_weight="2"
                 android:gravity="center"
-                android:orientation="vertical"
-                android:weightSum="100">
+                android:orientation="vertical">
 
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="0dp"
+                    android:layout_height="@dimen/plan_dimen_center"
                     android:layout_gravity="center"
-                    android:layout_weight="6"
                     android:gravity="center|left"
                     android:orientation="horizontal"
                     android:weightSum="15">
@@ -408,7 +400,7 @@
                         android:background="@android:color/holo_red_light" />
 
                     <ImageButton
-                        android:id="@+id/fragment_first_floor_110-111"
+                        android:id="@+id/fragment_first_floor_110_111"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="2"
@@ -448,18 +440,15 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="0dp"
+                    android:layout_height="@dimen/plan_dimen_hall"
                     android:layout_gravity="center"
-                    android:layout_weight="5"
                     android:gravity="center|left"
                     android:orientation="horizontal"></LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="0dp"
+                    android:layout_height="@dimen/plan_dimen_center"
                     android:layout_gravity="center"
-                    android:layout_marginBottom="15dp"
-                    android:layout_weight="6"
                     android:gravity="center|left"
                     android:orientation="horizontal"
                     android:weightSum="15">

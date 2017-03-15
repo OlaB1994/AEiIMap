@@ -27,8 +27,8 @@ public class GroundFloorFragment extends Fragment {
 
     @OnClick(R.id.fragment_ground_floor_503_ib)
     public void on503(){
-        InfoDialogFragment.newInstance(getContext())
-                .show(getActivity().getSupportFragmentManager(), InfoDialogFragment.class.getName());
+    InfoDialogFragment.newInstance(getContext()).show(getActivity().getFragmentManager(),
+            InfoDialogFragment.class.getName());
     }
 
     @Nullable

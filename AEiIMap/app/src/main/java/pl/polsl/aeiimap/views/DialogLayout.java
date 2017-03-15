@@ -10,6 +10,7 @@ import android.view.animation.AnimationUtils;
 import android.widget.RelativeLayout;
 
 import pl.polsl.aeiimap.R;
+import pl.polsl.aeiimap.dialogs.InfoDialogFragment;
 import timber.log.Timber;
 
 /**
@@ -75,7 +76,7 @@ public class DialogLayout extends RelativeLayout {
         this.startAnimation(inAnimation);
     }
 
-    public void hide(final DialogFragment dialog) {
+    public void hide(final InfoDialogFragment dialog) {
         outAnimation.setAnimationListener(new Animation.AnimationListener() {
             @Override
             public void onAnimationStart(Animation animation) {
