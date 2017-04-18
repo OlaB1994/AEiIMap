@@ -17,7 +17,9 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import pl.polsl.aeiimap.R;
+import pl.polsl.aeiimap.model.DataParser;
 import pl.polsl.aeiimap.views.DialogLayout;
+import pl.polsl.aeiimap.views.LightTextView;
 
 /**
  * Created by abienioszek on 28.07.2016.
@@ -28,6 +30,9 @@ public class InfoDialogFragment extends DialogFragment {
 
     @BindView(R.id.dialog_fragment_info_layout)
     DialogLayout layout;
+
+    @BindView(R.id.dialog_fragment_room_information)
+    LightTextView textView;
 
     public static InfoDialogFragment newInstance(Context ctx) {
         InfoDialogFragment dialog = new InfoDialogFragment();
@@ -64,6 +69,10 @@ public class InfoDialogFragment extends DialogFragment {
                     ViewGroup.LayoutParams.MATCH_PARENT);
             dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
         }
+
+        //TODO dodałem w ramach testów czy na pewno dataparser działa? -> działa :)
+        DataParser dataParser = DataParser.getInstance();
+        textView.setText(dataParser.getMap().getFloors()[0].getRooms().get(8).getDescription());
     }
 
     @Override

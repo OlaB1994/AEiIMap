@@ -11,24 +11,26 @@
         android:text="GROUND_FLOOR"/>
 
     <RelativeLayout
+        android:id="@+id/fragment_ground_relative_layout"
         android:layout_width="wrap_content"
-        android:layout_centerInParent="true"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
 
         <ImageButton
-            android:layout_width="150dp"
             android:id="@+id/fragment_ground_floor_503_ib"
+            android:layout_width="150dp"
             android:layout_height="150dp"
             android:background="@android:color/transparent"
             android:scaleType="fitCenter"
-            android:src="@drawable/selector_button_blue"/>
+            android:src="@drawable/selector_button_blue" />
 
         <pl.polsl.aeiimap.views.LightTextView
+            android:id="@+id/fragment_ground_room_number"
+            style="@style/OutlineText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            style="@style/OutlineText"
-            android:text="503"/>
+            android:text="503" />
 
     </RelativeLayout>
 

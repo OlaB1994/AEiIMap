@@ -1,0 +1,891 @@
+{
+  "floors": [
+    {
+      "id": 0,
+      "rooms": [
+        {
+          "id": "1",
+          "name": "Toaleta damska",
+          "owner": "",
+          "description": "",
+          "imagePath": "",
+          "type": 4
+        },
+        {
+          "id": "2",
+          "name": "Toaleta męska",
+          "owner": "",
+          "description": "",
+          "imagePath": "",
+          "type": 4
+        },
+        {
+          "id": "3",
+          "name": "Pomieszczenie nieznane",
+          "owner": "",
+          "description": "",
+          "imagePath": "",
+          "type": 6
+        },
+        {
+          "id": "4",
+          "name": "Sala ćwiczeń",
+          "owner": "",
+          "description": "",
+          "imagePath": "",
+          "type": 3
+        },
+        {
+          "id": "5",
+          "name": "Administracja",
+          "owner": "",
+          "description": "",
+          "imagePath": "",
+          "type": 6
+        },
+        {
+          "id": "6",
+          "name": "Magazyn",
+          "owner": "",
+          "description": "",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "7",
+          "name": "Pomieszczenie nieznane",
+          "owner": "",
+          "description": "",
+          "imagePath": "",
+          "type": 6
+        },
+        {
+          "id": "8",
+          "name": "Dziekanat",
+          "owner": "mgr Maria Skotnicka",
+          "description": "",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "9",
+          "name": "Dziekanat",
+          "owner": "mgr Karolina Widerak",
+          "description": "dyplomy",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "10",
+          "name": "Pomieszczenie nieznane",
+          "owner": "",
+          "description": "",
+          "imagePath": "",
+          "type": 6
+        },
+        {
+          "id": "11",
+          "name": "Pomieszczenie nieznane",
+          "owner": "",
+          "description": "",
+          "imagePath": "",
+          "type": 6
+        },
+        {
+          "id": "12",
+          "name": "Administracja",
+          "owner": "Janina Brzyska",
+          "description": "",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "13",
+          "name": "Administracja mgr inż. Michał Henryk Stypółkowski",
+          "owner": "",
+          "description": "",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "14",
+          "name": "Dział IT",
+          "owner": "inż. Sławomir Bednarz, Edward Szumiński, inż. Witold Warzecha",
+          "description": "",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "15",
+          "name": "Pomieszczenie nieznane",
+          "owner": "",
+          "description": "",
+          "imagePath": "",
+          "type": 6
+        },
+        {
+          "id": "16b",
+          "name": "Samorząd Studencki",
+          "owner": "",
+          "description": "www.samorzad.aei.polsl.pl",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "16",
+          "name": "Administracja",
+          "owner": "Przemysław Kula",
+          "description": "",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "16a",
+          "name": "Ciepłownia",
+          "owner": "",
+          "description": "",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "1001",
+          "name": "Aula A",
+          "owner": "",
+          "description": "zielona",
+          "imagePath": "",
+          "type": 1
+        },
+        {
+          "id": "1002",
+          "name": "Aula B",
+          "owner": "",
+          "description": "pomarańczowa",
+          "imagePath": "",
+          "type": 1
+        },
+        {
+          "id": "1003",
+          "name": "Aula C",
+          "owner": "",
+          "description": "niebieska",
+          "imagePath": "",
+          "type": 1
+        },
+        {
+          "id": "18",
+          "name": "Sala ćwiczeń",
+          "owner": "",
+          "description": "",
+          "imagePath": "",
+          "type": 3
+        },
+        {
+          "id": "19",
+          "name": "Kierownik Dziekanatu",
+          "owner": "mgr Mariola Duda",
+          "description": "kierunek: Informatyka",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "20",
+          "name": "Pomieszczenie nieznane",
+          "owner": "",
+          "description": "",
+          "imagePath": "",
+          "type": 6
+        },
+        {
+          "id": "21",
+          "name": "Dziekanat",
+          "owner": "Lic. Ewa Charczyszyn",
+          "description": "kierunek: Elektronika i Telekominikacja",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "22",
+          "name": "Dziekanat",
+          "owner": "Alicja Nierychlewska",
+          "description": "kierunki: Automatyka i Robotyka, Biotechnologia",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "23",
+          "name": "Dziekanat",
+          "owner": "mgr inż. Agnieszka Deja",
+          "description": "stypendia",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "24",
+          "name": "Dziekanat",
+          "owner": "Izabela Kulczyna",
+          "description": "Erasmus + studia doktoranckie",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "25",
+          "name": "Toaleta damska",
+          "owner": "",
+          "description": "",
+          "imagePath": "",
+          "type": 4
+        },
+        {
+          "id": "26",
+          "name": "Toaleta męska",
+          "owner": "",
+          "description": "",
+          "imagePath": "",
+          "type": 4
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "rooms": [
+        {
+          "id": "101",
+          "name": "Toaleta damska",
+          "owner": "",
+          "description": "",
+          "imagePath": "",
+          "type": 4
+        },
+        {
+          "id": "102",
+          "name": "Toaleta męsks",
+          "owner": "",
+          "description": "",
+          "imagePath": "",
+          "type": 4
+        },
+        {
+          "id": "103",
+          "name": "Laboratorium Miernictwa Przemysłowego",
+          "owner": " Kula",
+          "description": "Zautomatyzowane Stanowisko do Badań Przetworników Ciśnienia, Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "imagePath": "",
+          "type": 2
+        },
+        {
+          "id": "104",
+          "name": "Gabinet",
+          "owner": "mgr inż. Sebastian Kurczyk, mgr. inż. Stanisław Wrona",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "105",
+          "name": "Gabinet",
+          "owner": "dr inż. Andrzej Kozyra",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "106",
+          "name": "Gabinet",
+          "owner": "mgr inż. Oliwia Krauze, mgr inż. Karol Jabłoński",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "107",
+          "name": "Gabinet",
+          "owner": "prof. dr hab. inż. Jerzy Frączek, dr hab. inż. Stanisław Waluś prof. Pol. Śl., dr inż. Janusz Żelazik",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "108",
+          "name": "Gabinet",
+          "owner": "dr inż. Roman Wyżgolik",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "109",
+          "name": "Gabinet",
+          "owner": "dr inż. Sebastian Budzan",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "110",
+          "name": "Gabinet",
+          "owner": "dr inż. Dariusz Buchczik, dr inż. Witold Ilewicz",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "111",
+          "name": "Gabinet",
+          "owner": "dr inż. Dariusz Buchczik, dr inż. Witold Ilewicz",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "112",
+          "name": "Gabinet",
+          "owner": "dr inż. Tomasz Grychowski",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "113",
+          "name": "Gabinet",
+          "owner": "dr inż. Józef Wiora",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "114",
+          "name": "Gabinet",
+          "owner": "dr inż. Piotr Krauze, mgr inż. Leszek Nowak, (dr inż. Łukasz Malinowski)",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "115",
+          "name": "Gabinet",
+          "owner": "dr inż. Alicja Wiora, dr inż. Józef Wiora",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "116",
+          "name": "Laboratorium Miernictwa Przymysłowego, Laboratorium Izotopowe",
+          "owner": "",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "imagePath": "",
+          "type": 2
+        },
+        {
+          "id": "117",
+          "name": "SKN Fusion",
+          "owner": "",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "imagePath": "",
+          "type": 2
+        },
+        {
+          "id": "118",
+          "name": "Archiwum i pracownia kserograficzna",
+          "owner": "",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "119",
+          "name": "Gabinet",
+          "owner": "dr hab. inż. Marcin Gorawski prof. nzw. w Pol. Śl., dr inż. Rafał Malczok, mgr inż. Anna Gorawska, mgr inż. Krzysztof Pasterak",
+          "description": "Instytut Informatyki, Zakład Teorii Informatyki, Zespół Teorii Przestrzeni Danych i Algorytmów",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "120",
+          "name": "Gabinet",
+          "owner": "dr inż. Ryszard Jakuszewski",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "121",
+          "name": "Laboratorium",
+          "owner": "",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "imagePath": "",
+          "type": 2
+        },
+        {
+          "id": "122",
+          "name": "Laboratorium",
+          "owner": "",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "imagePath": "",
+          "type": 2
+        },
+        {
+          "id": "123",
+          "name": "Laboratorium Przetwarzania Sygnałów",
+          "owner": "",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "imagePath": "",
+          "type": 2
+        },
+        {
+          "id": "124",
+          "name": "Laboratorium Aktywnego Tłumienia Hałasu",
+          "owner": "",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "imagePath": "",
+          "type": 2
+        },
+        {
+          "id": "125",
+          "name": "Biuro Dziekana",
+          "owner": "lic. Nina Ryś - Protas",
+          "description": "",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "126",
+          "name": "Pełnomocnik Kwestora",
+          "owner": "mgr inż. Małgorzata Gielarowska-Kosior",
+          "description": "",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "127",
+          "name": "Biuro Dziekana",
+          "owner": "mgr Maria Skory",
+          "description": "",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "128",
+          "name": "Prodziekani",
+          "owner": "dr inż. Krzysztof Tokarz, dr hab. inż. Monika Kwoka, dr inż. Katarzyna Mościńska, dr inż. Krzysztof Simek",
+          "description": "",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "129",
+          "name": "Dziekan",
+          "owner": "prof. dr hab. inż. Adam Czornik",
+          "description": "Kierownik Biura Dziekana mgr Barbara Małysiak-Kaczmarczyk, Biuro Dziekana mgr Beata Mryka",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "130",
+          "name": "Biuro Dziekana",
+          "owner": "mgr Bogusława Kubosz",
+          "description": "",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "131",
+          "name": "Laboratorium Komputerowe",
+          "owner": "",
+          "description": "",
+          "imagePath": "",
+          "type": 2
+        },
+        {
+          "id": "132",
+          "name": "Dyrektor Administracyjny",
+          "owner": "mgr inż. Jarosław Homa",
+          "description": "Kierownik Działu IT",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "1004",
+          "name": "Aula D",
+          "owner": "",
+          "description": "",
+          "imagePath": "",
+          "type": 1
+        },
+        {
+          "id": "1005",
+          "name": "Aula E",
+          "owner": "",
+          "description": "",
+          "imagePath": "",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "rooms": [
+        {
+          "id": "222",
+          "name": "Aula F",
+          "owner": "",
+          "description": "",
+          "imagePath": "",
+          "type": 1
+        },
+        {
+          "id": "221",
+          "name": "Sala Obrad",
+          "owner": "",
+          "description": "",
+          "imagePath": "",
+          "type": 6
+        },
+        {
+          "id": "220",
+          "name": "Biblioteka",
+          "owner": "Małgorzata Jaskólska, mgr inż. Małgorzata Mołoń",
+          "description": "",
+          "imagePath": "",
+          "type": 6
+        },
+        {
+          "id": "219",
+          "name": "Laboratorium",
+          "owner": "",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "imagePath": "",
+          "type": 2
+        },
+        {
+          "id": "218",
+          "name": "Gabinet",
+          "owner": "dr inż. Janusz Wyrał",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "217",
+          "name": "Gabinet",
+          "owner": "dr inż. Jacek Loska",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "216",
+          "name": "Pracownia Techniczna Obsługi Laboratoriów",
+          "owner": "Piotr Kotowicz",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "215a",
+          "name": "Laboratorium",
+          "owner": "",
+          "description": "Lab AiR, Lab SP",
+          "imagePath": "",
+          "type": 2
+        },
+        {
+          "id": "215",
+          "name": "Laboratorium",
+          "owner": "",
+          "description": "Lab AiR, Lab SP",
+          "imagePath": "",
+          "type": 2
+        },
+        {
+          "id": "214",
+          "name": "Gabinet",
+          "owner": "dr inż. Małgorzata Michalczyk, dr inż. Krzysztof Czyż",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "213",
+          "name": "Gabinet",
+          "owner": "dr inż. Przemysław Skurowski, mgr inż. Wojciech Łabaj, mgr inż. Marcin Paszkuta, mgr inż. Karol Trzcionka",
+          "description": "Instytut Informatyki, Zespół Grafiki, Wizji i Symulacji Komputerowej",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "212a",
+          "name": "Laboratorium Dydaktyczne",
+          "owner": "",
+          "description": "Instytut Informatyki, Zakład Oprogramowania",
+          "imagePath": "",
+          "type": 2
+        },
+        {
+          "id": "211a",
+          "name": "Pomieszczenie nieznane",
+          "owner": "",
+          "description": "",
+          "imagePath": "",
+          "type": 6
+        },
+        {
+          "id": "211b",
+          "name": "Magazyn Zakładu",
+          "owner": "",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "211",
+          "name": "Laboratorium Systemów Pomiarowych i Interfejsów",
+          "owner": "",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "imagePath": "",
+          "type": 2
+        },
+        {
+          "id": "210",
+          "name": "Gabinet",
+          "owner": "mgr inż. Jarosław Rzepacki",
+          "description": "",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "209",
+          "name": "Laboratorium Pomiarów Termowizyjnych i Temperatury",
+          "owner": "",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "imagePath": "",
+          "type": 2
+        },
+        {
+          "id": "208a",
+          "name": "Pomieszczenie nieznane",
+          "owner": "",
+          "description": "",
+          "imagePath": "",
+          "type": 6
+        },
+        {
+          "id": "208",
+          "name": "Laboratorium Podstaw Miernictwa",
+          "owner": "dr inż. Józef Wiora",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "imagePath": "",
+          "type": 2
+        },
+        {
+          "id": "207",
+          "name": "Pracownia techniczna obsługi laboratoriów",
+          "owner": "Lech Jaskólski",
+          "description": "",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "206",
+          "name": "Gabinet",
+          "owner": "dr inż. Szymon Ogonowski",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "205",
+          "name": "Gabinet",
+          "owner": "prof. dr hab. inż. czł. rzecz. PAN Jerzy Klamka",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "204",
+          "name": "Gabinet",
+          "owner": "dr inż. Krzysztof Mazur",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "203",
+          "name": "Gabinet",
+          "owner": "dr inż. Janusz Hajda",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "202",
+          "name": "Toaleta damska",
+          "owner": "",
+          "description": "",
+          "imagePath": "",
+          "type": 4
+        },
+        {
+          "id": "201",
+          "name": "Toaleta męska",
+          "owner": "",
+          "description": "",
+          "imagePath": "",
+          "type": 4
+        },
+        {
+          "id": "223",
+          "name": "Laboratorium",
+          "owner": "Małgorzata Jaskólska",
+          "description": "Instytut Automatyki, Zakład Urządzeń i Układów Automatyki",
+          "imagePath": "",
+          "type": 2
+        },
+        {
+          "id": "224",
+          "name": "Gabinet",
+          "owner": "mgr inż. Henryk Jakbiec",
+          "description": "specjalista, Instytut Automatyki, Zakład Urządzeń i Układów Automatyki",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "225",
+          "name": "Gabinet",
+          "owner": "dr inż. Piotr Skupin",
+          "description": "Instytut Automatyki, Zakład Urządzeń i Układów Automatyki",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "226",
+          "name": "Gabinet",
+          "owner": "dr inż. Krzysztof Stebel",
+          "description": "Instytut Automatyki, Zakład Urządzeń i Układów Automatyki",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "227",
+          "name": "Laboratorium Mikrorobotów w Biotechnologii",
+          "owner": "",
+          "description": "Instytut Automatyki, Zakład Urządzeń i Układów Automatyki",
+          "imagePath": "",
+          "type": 2
+        },
+        {
+          "id": "228",
+          "name": "Gabinet",
+          "owner": "dr hab. inż. Dariusz Choiński prof. Pol. Śl.",
+          "description": "Instytut Automatyki, Zakład Urządzeń i Układów Automatyki",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "229",
+          "name": "Laboratorium FISH",
+          "owner": "",
+          "description": "Instytut Automatyki, Zakład Urządzeń i Układów Automatyki",
+          "imagePath": "",
+          "type": 2
+        },
+        {
+          "id": "230",
+          "name": "Gabinet",
+          "owner": "dr hab. inż. Witold Nocoń",
+          "description": "Instytut Automatyki, Zakład Urządzeń i Układów Automatyki",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "231",
+          "name": "Gabinet",
+          "owner": "dr inż. Krzysztof Polaków",
+          "description": "Instytut Automatyki, Zakład Urządzeń i Układów Automatyki",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "232",
+          "name": "Gabinet",
+          "owner": "dr inż. Piotr Łaszczyk",
+          "description": "Instytut Automatyki, Zakład Urządzeń i Układów Automatyki",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "233",
+          "name": "Gabinet",
+          "owner": "mgr inż. Paweł Nowak, mgr inż. Michał Frątczak",
+          "description": "Instytut Automatyki, Zakład Urządzeń i Układów Automatyki",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "234",
+          "name": "Laboratorium Sterowania Procesami Cieplnymi",
+          "owner": "",
+          "description": "Pilotażowa sieć cieplna, Instytut Automatyki, Zakład Urządzeń i Układów Automatyki",
+          "imagePath": "",
+          "type": 2
+        },
+        {
+          "id": "235",
+          "name": "Gabinet",
+          "owner": "prof. dr hab. inż. Mieczysław Metzger",
+          "description": "kierownik zakładu, Instytut Automatyki, Zakład Urządzeń i Układów Automatyki",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "236",
+          "name": "Gabinet",
+          "owner": "Dr Sc. Jacques Richalet",
+          "description": "visiting professor",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "237",
+          "name": "Gabinet",
+          "owner": "dr inż. Tomasz Kłopot, mgr inż. Witold Kłopot",
+          "description": "Instytut Automatyki, Zakład Urządzeń i Układów Automatyki",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "238",
+          "name": "Rockwell Automation Laboratorium",
+          "owner": "",
+          "description": "",
+          "imagePath": "",
+          "type": 2
+        },
+        {
+          "id": "239",
+          "name": "Pracownia techniczna",
+          "owner": "Klaudiusz Szołtys",
+          "description": "Instytut Automatyki, Zakład Urządzeń i Układów Automatyki",
+          "imagePath": "",
+          "type": 5
+        },
+        {
+          "id": "240",
+          "name": "Toaleta damska",
+          "owner": "",
+          "description": "",
+          "imagePath": "",
+          "type": 4
+        },
+        {
+          "id": "241",
+          "name": "Toaleta męska",
+          "owner": "",
+          "description": "",
+          "imagePath": "",
+          "type": 4
+        }
+      ]
+    }
+  ]
+}

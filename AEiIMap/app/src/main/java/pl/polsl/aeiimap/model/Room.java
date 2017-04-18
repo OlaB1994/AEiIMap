@@ -9,7 +9,7 @@ import android.os.Parcelable;
 
 public class Room implements Parcelable {
 
-    private int id;
+    private String id;
     private String name;
     private String owner;
     private String description;
@@ -18,7 +18,7 @@ public class Room implements Parcelable {
 
 
     protected Room(Parcel in) {
-        id = in.readInt();
+        id = in.readString();
         name = in.readString();
         owner = in.readString();
         description = in.readString();
@@ -45,7 +45,7 @@ public class Room implements Parcelable {
 
     @Override
     public void writeToParcel(Parcel parcel, int i) {
-        parcel.writeInt(id);
+        parcel.writeString(id);
         parcel.writeString(name);
         parcel.writeString(owner);
         parcel.writeString(description);
@@ -53,11 +53,11 @@ public class Room implements Parcelable {
         parcel.writeInt(type);
     }
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 

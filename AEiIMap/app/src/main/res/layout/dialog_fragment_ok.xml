@@ -20,7 +20,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="504"
-                android:textSize="@dimen/title_text_size" />
+                android:textSize="@dimen/title_text_size"
+                />
         </LinearLayout>
 
         <LinearLayout
@@ -36,6 +37,7 @@
                 android:scaleType="fitCenter" />
 
             <pl.polsl.aeiimap.views.LightTextView
+                android:id="@+id/dialog_fragment_room_information"
                 android:layout_width="@dimen/picture_width"
                 android:layout_height="@dimen/picture_height"
                 android:layout_gravity="center"
