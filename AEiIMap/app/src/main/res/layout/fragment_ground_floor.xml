@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <pl.polsl.aeiimap.views.ZoomableRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
     android:id="@+id/fragment_ground_floor_zoomable_rl"
-    android:background="@android:color/white"
-    android:layout_height="match_parent">
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="GROUND_FLOOR"/>
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
 
     <RelativeLayout
         android:id="@+id/fragment_ground_relative_layout"
@@ -33,7 +28,6 @@
             android:text="503" />
 
     </RelativeLayout>
-
 
 
 </pl.polsl.aeiimap.views.ZoomableRelativeLayout>

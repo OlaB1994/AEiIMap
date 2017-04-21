@@ -28,12 +28,5 @@ public class OnPinchListener extends ScaleGestureDetector.SimpleOnScaleGestureLi
     }
 
 
-    public boolean onScale(ScaleGestureDetector detector) {
-        zoomableRelativeLayout.scale(detector.getCurrentSpan()/startingSpan, startFocusX, startFocusY);
-        return true;
-    }
 
-    public void onScaleEnd(ScaleGestureDetector detector) {
-        zoomableRelativeLayout.restore();
-    }
 }
