@@ -15,4 +15,7 @@
     <dimen name="plan_dimen_center">25dp</dimen>
     <dimen name="plan_dimen_hall">15dp</dimen>
     <dimen name="plan_dimen_bottom">140dp</dimen>
+
+    <dimen name="plan_dimen_horizontal_room">30dp</dimen>
+    <dimen name="plan_dimen_horizontal_hall">20dp</dimen>
 </resources>

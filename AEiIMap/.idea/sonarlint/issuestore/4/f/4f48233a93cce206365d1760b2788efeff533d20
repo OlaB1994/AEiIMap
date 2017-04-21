@@ -1,4 +1,4 @@
 
+‘squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(†ÝÂ˜üÿÿÿÿ8¸Éî‚©+
 Ysquid:S1213"8Move this variable to comply with Java Code Conventions.(è…¸†ÿÿÿÿÿ8ˆ—ò‚©+
 Œsquid:S1319"pThe type of the "rooms" object should be an interface such as "List" rather than the implementation "ArrayList".(Ù˜€ˆ8¸Éî‚©+
-‘squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(†ÝÂ˜üÿÿÿÿ8¸Éî‚©+

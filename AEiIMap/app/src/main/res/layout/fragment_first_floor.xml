@@ -31,8 +31,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/plan_dimen_top"
                     android:layout_marginLeft="@dimen/first_floor_margin_roomA"
-                    android:orientation="horizontal"
-                    android:weightSum="100">
+                    android:orientation="horizontal">
 
                     <LinearLayout
                         android:layout_width="0dp"
@@ -59,7 +58,6 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="0dp"
                                 android:layout_weight="1">
-
 
                             </LinearLayout>
 
@@ -106,13 +104,11 @@
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
                             android:layout_weight="8"
-                            android:orientation="horizontal"
-                            android:weightSum="3">
+                            android:orientation="horizontal">
 
                             <LinearLayout
-                                android:layout_width="0dp"
+                                android:layout_width="@dimen/plan_dimen_horizontal_room"
                                 android:layout_height="match_parent"
-                                android:layout_weight="1"
                                 android:orientation="vertical"
                                 android:weightSum="4">
 
@@ -145,16 +141,12 @@
                             </LinearLayout>
 
                             <LinearLayout
-                                android:layout_width="0dp"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1">
-
-                            </LinearLayout>
+                                android:layout_width="@dimen/plan_dimen_horizontal_hall"
+                                android:layout_height="match_parent"/>
 
                             <LinearLayout
-                                android:layout_width="0dp"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1">
+                                android:layout_width="@dimen/plan_dimen_horizontal_room"
+                                android:layout_height="match_parent">
 
                                 <ImageButton
                                     android:layout_width="match_parent"
