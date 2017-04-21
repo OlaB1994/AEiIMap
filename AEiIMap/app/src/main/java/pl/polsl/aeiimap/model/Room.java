@@ -16,6 +16,9 @@ public class Room implements Parcelable {
     private String imagePath;
     private int type;
 
+    public Room() {
+
+    }
 
     protected Room(Parcel in) {
         id = in.readString();

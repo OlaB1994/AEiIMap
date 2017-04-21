@@ -18,4 +18,5 @@
 
     <dimen name="plan_dimen_horizontal_room">30dp</dimen>
     <dimen name="plan_dimen_horizontal_hall">20dp</dimen>
+    <dimen name="plan_dimen_horizontal">80dp</dimen>
 </resources>

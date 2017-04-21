@@ -13,12 +13,23 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:orientation="vertical"
             android:layout_gravity="center">
 
             <pl.polsl.aeiimap.views.LightTextView
                 android:id="@+id/dialog_fragment_info_title_tv"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/normal_margin"
+                android:text="504"
+                android:textSize="@dimen/title_text_size"
+                />
+
+            <pl.polsl.aeiimap.views.LightTextView
+                android:id="@+id/dialog_fragment_info_owner_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/normal_margin"
                 android:text="504"
                 android:textSize="@dimen/title_text_size"
                 />
@@ -51,6 +62,7 @@
             android:id="@+id/dialog_fragment_info_ok_btn"
             android:layout_width="@dimen/button_size"
             android:layout_height="@dimen/button_size"
+            android:layout_margin="@dimen/normal_margin"
             android:layout_gravity="center"
             android:text="OK" />
     </LinearLayout>

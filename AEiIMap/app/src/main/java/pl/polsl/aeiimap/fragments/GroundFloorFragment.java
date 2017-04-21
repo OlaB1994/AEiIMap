@@ -21,6 +21,7 @@ import pl.polsl.aeiimap.views.LightTextView;
  */
 public class GroundFloorFragment extends Fragment {
 
+    private final int GROUND_FLOOR = 0;
 
     @BindView(R.id.fragment_ground_room_number)
     LightTextView textView;
@@ -30,7 +31,7 @@ public class GroundFloorFragment extends Fragment {
 
     @OnClick(R.id.fragment_ground_floor_503_ib)
     public void on503() {
-        InfoDialogFragment.newInstance(getContext()).show(getActivity().getFragmentManager(),
+        InfoDialogFragment.newInstance(getContext(), GROUND_FLOOR, 1).show(getActivity().getFragmentManager(),
                 InfoDialogFragment.class.getName());
     }
 

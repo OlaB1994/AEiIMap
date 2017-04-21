@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<pl.polsl.aeiimap.views.ZoomableRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -42,7 +42,7 @@
 
                         <ImageButton
                             android:id="@+id/fragment_first_floor_130"
-                            android:layout_width="match_parent"
+                            android:layout_width="@dimen/plan_dimen_horizontal"
                             android:layout_height="0dp"
                             android:layout_weight="2"
                             android:background="@android:color/holo_red_light" />
@@ -68,34 +68,49 @@
                                 android:orientation="horizontal"
                                 android:weightSum="15">
 
-                                <ImageButton
-                                    android:layout_width="0dp"
+                                <LinearLayout
+                                    android:layout_width="@dimen/plan_dimen_horizontal_room"
                                     android:layout_height="match_parent"
-                                    android:layout_weight="3"
+                                    android:orientation="horizontal"
+                                    android:weightSum="2">
+
+                                    <ImageButton
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:background="@android:color/holo_red_dark" />
+
+                                    <ImageButton
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:background="@android:color/white" />
+                                </LinearLayout>
+
+                                <ImageButton
+                                    android:layout_width="@dimen/plan_dimen_horizontal_hall"
+                                    android:layout_height="match_parent"
                                     android:background="@android:color/holo_red_dark" />
 
-                                <ImageButton
-                                    android:layout_width="0dp"
+                                <LinearLayout
+                                    android:layout_width="@dimen/plan_dimen_horizontal_room"
                                     android:layout_height="match_parent"
-                                    android:layout_weight="2"
-                                    android:background="@android:color/white" />
+                                    android:orientation="horizontal"
+                                    android:weightSum="2">
 
-                                <ImageButton
-                                    android:layout_width="0dp"
-                                    android:layout_height="match_parent"
-                                    android:layout_weight="5" />
+                                    <ImageButton
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:background="@android:color/holo_red_dark" />
 
-                                <ImageButton
-                                    android:layout_width="0dp"
-                                    android:layout_height="match_parent"
-                                    android:layout_weight="2"
-                                    android:background="@android:color/white" />
+                                    <ImageButton
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:background="@android:color/white" />
+                                </LinearLayout>
 
-                                <ImageButton
-                                    android:layout_width="0dp"
-                                    android:layout_height="match_parent"
-                                    android:layout_weight="3"
-                                    android:background="@android:color/holo_red_dark" />
                             </LinearLayout>
 
                         </LinearLayout>
@@ -142,7 +157,7 @@
 
                             <LinearLayout
                                 android:layout_width="@dimen/plan_dimen_horizontal_hall"
-                                android:layout_height="match_parent"/>
+                                android:layout_height="match_parent" />
 
                             <LinearLayout
                                 android:layout_width="@dimen/plan_dimen_horizontal_room"
@@ -538,4 +553,4 @@
     </LinearLayout>
 
 
-</pl.polsl.aeiimap.views.ZoomableRelativeLayout>
+</RelativeLayout>

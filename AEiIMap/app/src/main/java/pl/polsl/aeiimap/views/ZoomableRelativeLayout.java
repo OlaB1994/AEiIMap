@@ -6,6 +6,7 @@ import android.graphics.Matrix;
 import android.graphics.Rect;
 import android.os.Build;
 import android.support.annotation.RequiresApi;
+import android.support.v4.view.MotionEventCompat;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.ScaleGestureDetector;
@@ -150,46 +151,46 @@ public class ZoomableRelativeLayout extends ViewGroup {
 
     @Override
     public boolean onTouchEvent(MotionEvent ev) {
-        mOnTouchEventWorkingArray[0] = ev.getX();
-        mOnTouchEventWorkingArray[1] = ev.getY();
-
-        mOnTouchEventWorkingArray = scaledPointsToScreenPoints(mOnTouchEventWorkingArray);
-
-        ev.setLocation(mOnTouchEventWorkingArray[0], mOnTouchEventWorkingArray[1]);
+        // Let the ScaleGestureDetector inspect all events.
         mScaleDetector.onTouchEvent(ev);
 
-        final int action = ev.getAction();
-        switch (action & MotionEvent.ACTION_MASK) {
-            case MotionEvent.ACTION_DOWN: {
-                final float x = ev.getX();
-                final float y = ev.getY();
+        final int action = MotionEventCompat.getActionMasked(ev);
 
+        switch (action) {
+            case MotionEvent.ACTION_DOWN: {
+                final int pointerIndex = MotionEventCompat.getActionIndex(ev);
+                final float x = MotionEventCompat.getX(ev, pointerIndex);
+                final float y = MotionEventCompat.getY(ev, pointerIndex);
+
+                // Remember where we started (for dragging)
                 mLastTouchX = x;
                 mLastTouchY = y;
-
-                // Save the ID of this pointer
-                mActivePointerId = ev.getPointerId(0);
+                // Save the ID of this pointer (for dragging)
+                mActivePointerId = MotionEventCompat.getPointerId(ev, 0);
                 break;
             }
 
             case MotionEvent.ACTION_MOVE: {
                 // Find the index of the active pointer and fetch its position
-                final int pointerIndex = ev.findPointerIndex(mActivePointerId);
-                final float x = ev.getX(pointerIndex);
-                final float y = ev.getY(pointerIndex);
+                final int pointerIndex =
+                        MotionEventCompat.findPointerIndex(ev, mActivePointerId);
 
+                final float x = MotionEventCompat.getX(ev, pointerIndex);
+                final float y = MotionEventCompat.getY(ev, pointerIndex);
+
+                // Calculate the distance moved
                 final float dx = x - mLastTouchX;
                 final float dy = y - mLastTouchY;
 
                 mPosX += dx;
                 mPosY += dy;
-                mTranslateMatrix.preTranslate(dx, dy);
-                mTranslateMatrix.invert(mTranslateMatrixInverse);
 
+                invalidate();
+
+                // Remember this touch position for the next move event
                 mLastTouchX = x;
                 mLastTouchY = y;
 
-                invalidate();
                 break;
             }
 
@@ -204,22 +205,25 @@ public class ZoomableRelativeLayout extends ViewGroup {
             }
 
             case MotionEvent.ACTION_POINTER_UP: {
-                // Extract the index of the pointer that left the touch sensor
-                final int pointerIndex = (action & MotionEvent.ACTION_POINTER_INDEX_MASK) >> MotionEvent.ACTION_POINTER_INDEX_SHIFT;
-                final int pointerId = ev.getPointerId(pointerIndex);
+
+                final int pointerIndex = MotionEventCompat.getActionIndex(ev);
+                final int pointerId = MotionEventCompat.getPointerId(ev, pointerIndex);
+
                 if (pointerId == mActivePointerId) {
                     // This was our active pointer going up. Choose a new
                     // active pointer and adjust accordingly.
                     final int newPointerIndex = pointerIndex == 0 ? 1 : 0;
-                    mLastTouchX = ev.getX(newPointerIndex);
-                    mLastTouchY = ev.getY(newPointerIndex);
-                    mActivePointerId = ev.getPointerId(newPointerIndex);
+                    mLastTouchX = MotionEventCompat.getX(ev, newPointerIndex);
+                    mLastTouchY = MotionEventCompat.getY(ev, newPointerIndex);
+                    mActivePointerId = MotionEventCompat.getPointerId(ev, newPointerIndex);
                 }
                 break;
             }
         }
         return true;
     }
+
+
 
     private class ScaleListener extends ScaleGestureDetector.SimpleOnScaleGestureListener {
 

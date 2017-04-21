@@ -8,16 +8,20 @@ import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v4.content.ContextCompat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
+import android.widget.Button;
+import android.widget.TextView;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import pl.polsl.aeiimap.R;
 import pl.polsl.aeiimap.model.DataParser;
+import pl.polsl.aeiimap.model.Room;
 import pl.polsl.aeiimap.views.DialogLayout;
 import pl.polsl.aeiimap.views.LightTextView;
 
@@ -26,17 +30,27 @@ import pl.polsl.aeiimap.views.LightTextView;
  */
 public class InfoDialogFragment extends DialogFragment {
 
-    Context ctx;
+    private Context ctx;
+    private int floor;
+    private int room;
 
     @BindView(R.id.dialog_fragment_info_layout)
     DialogLayout layout;
 
     @BindView(R.id.dialog_fragment_room_information)
-    LightTextView textView;
+    LightTextView descriptionTv;
+    @BindView(R.id.dialog_fragment_info_title_tv)
+    TextView titleTv;
+    @BindView(R.id.dialog_fragment_info_owner_tv)
+    TextView ownerTv;
+    @BindView(R.id.dialog_fragment_info_ok_btn)
+    Button okBtn;
 
-    public static InfoDialogFragment newInstance(Context ctx) {
+    public static InfoDialogFragment newInstance(Context ctx, int floor, int room) {
         InfoDialogFragment dialog = new InfoDialogFragment();
         dialog.ctx = ctx;
+        dialog.floor = floor;
+        dialog.room = room;
         dialog.setStyle(STYLE_NO_FRAME, 0);
         return dialog;
     }
@@ -56,6 +70,7 @@ public class InfoDialogFragment extends DialogFragment {
         ButterKnife.bind(this, view);
         getDialog().getWindow().requestFeature(Window.FEATURE_NO_TITLE);
         getDialog().setCanceledOnTouchOutside(true);
+        setupView();
         layout.show();
         return view;
     }
@@ -69,10 +84,33 @@ public class InfoDialogFragment extends DialogFragment {
                     ViewGroup.LayoutParams.MATCH_PARENT);
             dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
         }
+    }
 
-        //TODO dodałem w ramach testów czy na pewno dataparser działa? -> działa :)
+    private void setupView() {
         DataParser dataParser = DataParser.getInstance();
-        textView.setText(dataParser.getMap().getFloors()[0].getRooms().get(8).getDescription());
+        Room data =dataParser.getMap().getFloors()[floor].getRoomById(room);
+        descriptionTv.setText(data.getDescription());
+        titleTv.setText(data.getName() + " - " + data.getId());
+        ownerTv.setText(data.getOwner());
+        okBtn.setBackground(ContextCompat.getDrawable(ctx, getDrawableId(data.getType())));
+    }
+
+    private int getDrawableId(int type) {
+        switch (type){
+            case 1:
+                return R.drawable.selector_button_blue;
+            case 2:
+                return R.drawable.selector_button_green;
+            case 3:
+                return R.drawable.selector_button_orange;
+            case 4:
+                return R.drawable.selector_button_yellow;
+            case 5:
+                return R.drawable.selector_button_pink;
+            case 6:
+                return R.drawable.selector_button_turquoise;
+        }
+        return R.drawable.selector_button_purple;
     }
 
     @Override
