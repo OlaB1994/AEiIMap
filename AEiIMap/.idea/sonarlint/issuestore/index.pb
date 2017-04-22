@@ -35,3 +35,5 @@ a
 1app/src/main/java/pl/polsl/aeiimap/model/Map.java,0/d/0d935d9ba8f413d29539fef3cd3c950178a6b5b9
 b
 2app/src/main/java/pl/polsl/aeiimap/model/Room.java,4/8/48346edb48c9a934b9026a9a881ea9cb273e9f9e
+h
+8app/src/main/java/pl/polsl/aeiimap/model/DataParser.java,9/7/977503934ded3a38690a21e04a620757711e034b

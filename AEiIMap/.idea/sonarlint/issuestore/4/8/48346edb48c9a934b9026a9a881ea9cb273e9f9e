@@ -1,2 +1,2 @@
 
-Ysquid:S1213"8Move this variable to comply with Java Code Conventions.(šâÛôÿÿÿÿÿ8€Øñ‚©+
+squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ö¶é¦8´„¹+

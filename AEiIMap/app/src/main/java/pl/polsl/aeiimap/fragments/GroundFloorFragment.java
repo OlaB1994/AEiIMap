@@ -14,7 +14,6 @@ import butterknife.OnClick;
 import pl.polsl.aeiimap.R;
 import pl.polsl.aeiimap.dialogs.InfoDialogFragment;
 import pl.polsl.aeiimap.model.DataParser;
-import pl.polsl.aeiimap.views.LightTextView;
 
 /**
  * Created by aleksandrabienioszek on 28.02.2017.
@@ -22,9 +21,6 @@ import pl.polsl.aeiimap.views.LightTextView;
 public class GroundFloorFragment extends Fragment {
 
     private final int GROUND_FLOOR = 0;
-
-    @BindView(R.id.fragment_ground_room_number)
-    LightTextView textView;
 
     @BindView(R.id.fragment_ground_relative_layout)
     RelativeLayout relativeLayout;

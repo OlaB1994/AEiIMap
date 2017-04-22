@@ -3,4 +3,5 @@
     <color name="dialog_color_background">#8053606c</color>
     <color name="dialog_color_background_solid">#53606c</color>
     <color name="text_outline">#2a9ac2</color>
+    <color name="map_hall">#FFFFFF</color>
 </resources>

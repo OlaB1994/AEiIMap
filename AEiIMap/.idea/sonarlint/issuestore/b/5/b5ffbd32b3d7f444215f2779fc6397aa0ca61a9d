@@ -1,4 +1,4 @@
 
-Tsquid:S1118":Add a private constructor to hide the implicit public one.(Á”ê®üÿÿÿÿ
 psquid:S1149"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(óÔâ‚ÿÿÿÿÿ
 ssquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(óÔâ‚ÿÿÿÿÿ
+Tsquid:S1118":Add a private constructor to hide the implicit public one.(Á”ê®üÿÿÿÿ

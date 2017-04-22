@@ -24,4 +24,17 @@
         <item name="android:shadowRadius">@dimen/outline_text_large_radius</item>
     </style>
 
+    <style name="MatchParent">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="MapBgHorizontal">
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
 </resources>

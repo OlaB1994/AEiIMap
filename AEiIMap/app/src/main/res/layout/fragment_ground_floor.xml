@@ -11,21 +11,28 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true">
 
-        <ImageButton
-            android:id="@+id/fragment_ground_floor_503_ib"
+        <!--<ImageButton-->
+        <!--android:id="@+id/fragment_ground_floor_503_ib"-->
+        <!--android:layout_width="150dp"-->
+        <!--android:layout_height="150dp"-->
+        <!--android:background="@android:color/transparent"-->
+        <!--android:scaleType="fitCenter"-->
+        <!--android:src="@drawable/selector_button_blue" />-->
+
+        <!--<pl.polsl.aeiimap.views.LightTextView-->
+        <!--android:id="@+id/fragment_ground_room_number"-->
+        <!--style="@style/OutlineText"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:text="503" />-->
+
+        <pl.polsl.aeiimap.views.LightTextButton
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:background="@android:color/transparent"
-            android:scaleType="fitCenter"
-            android:src="@drawable/selector_button_blue" />
-
-        <pl.polsl.aeiimap.views.LightTextView
-            android:id="@+id/fragment_ground_room_number"
-            style="@style/OutlineText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:text="503" />
+            android:id="@+id/fragment_ground_floor_503_ib"
+            android:background="@drawable/selector_button_blue"
+            android:text="403" />
 
     </RelativeLayout>
 
