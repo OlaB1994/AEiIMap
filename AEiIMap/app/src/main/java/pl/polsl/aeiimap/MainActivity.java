@@ -2,13 +2,6 @@ package pl.polsl.aeiimap;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
-import android.view.MotionEvent;
-import android.view.View;
-
-import java.sql.SQLOutput;
-import java.util.ArrayList;
-import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -16,8 +9,6 @@ import butterknife.OnClick;
 import fr.castorflex.android.verticalviewpager.VerticalViewPager;
 import pl.polsl.aeiimap.adapters.PagerAdapter;
 import pl.polsl.aeiimap.model.DataParser;
-import pl.polsl.aeiimap.model.Floor;
-import pl.polsl.aeiimap.model.Room;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -48,6 +39,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
         initPager();
+        DataParser dataParser = DataParser.getInstance();
+        dataParser.init(getApplicationContext());
     }
 
     private void initPager() {

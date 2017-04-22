@@ -37,3 +37,7 @@ b
 2app/src/main/java/pl/polsl/aeiimap/model/Room.java,4/8/48346edb48c9a934b9026a9a881ea9cb273e9f9e
 h
 8app/src/main/java/pl/polsl/aeiimap/model/DataParser.java,9/7/977503934ded3a38690a21e04a620757711e034b
+m
+=app/src/main/java/pl/polsl/aeiimap/views/LightTextButton.java,3/2/32e9046131df11708cc823769921bd8834d8c530
+r
+Bapp/src/main/java/pl/polsl/aeiimap/views/ZoomableLinearLayout.java,3/c/3c0bcaa94963603b15e8c85e70ccd447f6b51ace

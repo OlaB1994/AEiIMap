@@ -58,9 +58,9 @@ public class Floor implements Parcelable {
         this.id = id;
     }
 
-    public Room getRoomById(int id) {
+    public Room getRoomById(String id) {
         for (Room room : rooms) {
-            if (room.getId().equals(Integer.toString(id)))
+            if (room.getId().equals(id))
                 return room;
         }
         return new Room();

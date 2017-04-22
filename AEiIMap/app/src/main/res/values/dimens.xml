@@ -16,6 +16,9 @@
     <dimen name="plan_dimen_hall">15dp</dimen>
     <dimen name="plan_dimen_bottom">140dp</dimen>
 
+
+    <dimen name="plan_dimen_bottom_ground">150dp</dimen>
+
     <dimen name="plan_dimen_horizontal_room">30dp</dimen>
     <dimen name="plan_dimen_horizontal_hall">20dp</dimen>
     <dimen name="plan_dimen_margin_hall">15dp</dimen>
@@ -23,5 +26,7 @@
     <dimen name="plan_dimen_horizontal">80dp</dimen>
     <dimen name="plan_dimen_aula_hall">30dp</dimen>
 
+    <dimen name="plan_dimen_horizontal_room_and_hall">30dp</dimen>
     <dimen name="text_max_width">300dp</dimen>
+    <dimen name="margin_ground_scripts">19dp</dimen>
 </resources>

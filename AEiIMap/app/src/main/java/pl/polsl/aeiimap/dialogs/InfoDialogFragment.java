@@ -32,7 +32,7 @@ public class InfoDialogFragment extends DialogFragment {
 
     private Context ctx;
     private int floor;
-    private int room;
+    private String room;
 
     @BindView(R.id.dialog_fragment_info_layout)
     DialogLayout layout;
@@ -47,6 +47,15 @@ public class InfoDialogFragment extends DialogFragment {
     Button okBtn;
 
     public static InfoDialogFragment newInstance(Context ctx, int floor, int room) {
+        InfoDialogFragment dialog = new InfoDialogFragment();
+        dialog.ctx = ctx;
+        dialog.floor = floor;
+        dialog.room = room+"";
+        dialog.setStyle(STYLE_NO_FRAME, 0);
+        return dialog;
+    }
+
+    public static InfoDialogFragment newInstance(Context ctx, int floor, String room) {
         InfoDialogFragment dialog = new InfoDialogFragment();
         dialog.ctx = ctx;
         dialog.floor = floor;

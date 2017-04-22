@@ -1,11 +1,540 @@
 <?xml version="1.0" encoding="utf-8"?>
 <pl.polsl.aeiimap.views.ZoomableLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:id="@+id/fragment_second_floor_main_ll"
+    style="@style/MatchParent">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="SECOND_FLOOR"/>
+    <LinearLayout
+        style="@style/MatchParent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <LinearLayout
+            style="@style/MapBgHorizontal"
+            android:layout_weight="1"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/plan_dimen_top"
+                    android:layout_marginLeft="@dimen/first_floor_margin_roomA"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="85"
+                        android:orientation="vertical"
+                        android:weightSum="13">
+
+                        <LinearLayout
+                            android:layout_width="@dimen/plan_dimen_horizontal"
+                            android:layout_height="0dp"
+                            android:layout_weight="2"
+                            android:orientation="horizontal"
+                            android:weightSum="7">
+
+                            <pl.polsl.aeiimap.views.LightTextButton
+                                android:id="@+id/fragment_second_floor_237"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/selector_button_pink"
+                                android:text="237" />
+
+
+                            <pl.polsl.aeiimap.views.LightTextButton
+                                android:id="@+id/fragment_second_floor_238"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="3"
+                                android:background="@drawable/selector_button_green"
+                                android:text="238" />
+
+                            <pl.polsl.aeiimap.views.LightTextButton
+                                android:id="@+id/fragment_second_floor_239"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="3"
+                                android:background="@drawable/selector_button_green"
+                                android:text="239" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="@dimen/plan_dimen_horizontal"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:background="@color/map_hall"
+                            android:orientation="horizontal" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="2"
+                            android:orientation="vertical"
+                            android:weightSum="2">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="2"
+                                android:orientation="horizontal"
+                                android:weightSum="15">
+
+                                <pl.polsl.aeiimap.views.LightTextButton
+                                    android:layout_width="@dimen/plan_dimen_horizontal_hall"
+                                    android:layout_height="match_parent"
+                                    android:background="@drawable/selector_button_turquoise" />
+
+                                <pl.polsl.aeiimap.views.LightTextButton
+                                    android:layout_width="@dimen/plan_dimen_horizontal_lift"
+                                    android:layout_height="match_parent"
+                                    android:background="@drawable/selector_button_turquoise" />
+
+                                <LinearLayout
+                                    android:layout_width="@dimen/plan_dimen_horizontal_hall"
+                                    android:layout_height="match_parent"
+                                    android:background="@color/map_hall"></LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="@dimen/plan_dimen_horizontal_room"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal"
+                                    android:weightSum="2">
+
+                                    <pl.polsl.aeiimap.views.LightTextButton
+                                        android:id="@+id/fragment_second_floor_241"
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:background="@drawable/selector_button_yellow"
+                                        android:text="WC" />
+
+                                    <pl.polsl.aeiimap.views.LightTextButton
+                                        android:id="@+id/fragment_second_floor_240"
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:background="@drawable/selector_button_yellow"
+                                        android:text="WC" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="8"
+                            android:orientation="horizontal">
+
+
+                            <pl.polsl.aeiimap.views.LightTextButton
+                                android:layout_width="@dimen/plan_dimen_horizontal_room_and_hall"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="@dimen/plan_dimen_horizontal_hall"
+                                android:background="@drawable/selector_button_blue"
+                                android:text="222" />
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/plan_dimen_center"
+                    android:layout_marginLeft="@dimen/first_floor_margin_roomA">
+
+                    <pl.polsl.aeiimap.views.LightTextButton
+                        android:id="@+id/fragment_second_floor_no"
+                        android:layout_width="@dimen/plan_dimen_horizontal_hall"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/selector_button_turquoise"
+                        android:text="0" />
+
+                    <pl.polsl.aeiimap.views.LightTextButton
+                        android:layout_width="@dimen/plan_dimen_horizontal_lift"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/selector_button_turquoise" />
+
+                    <pl.polsl.aeiimap.views.LightTextButton
+                        android:layout_width="@dimen/plan_dimen_horizontal_hall"
+                        android:layout_height="match_parent"
+                        android:background="@color/map_hall" />
+
+                    <pl.polsl.aeiimap.views.LightTextButton
+                        android:layout_width="@dimen/plan_dimen_horizontal_hall"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/selector_button_turquoise" />
+
+                    <pl.polsl.aeiimap.views.LightTextButton
+                        android:id="@+id/fragment_second_floor_201"
+                        android:layout_width="@dimen/plan_dimen_horizontal_lift"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/selector_button_yellow"
+                        android:text="201-202" />
+
+                    <pl.polsl.aeiimap.views.LightTextButton
+                        android:id="@+id/fragment_second_floor_203"
+                        android:layout_width="@dimen/plan_dimen_horizontal_lift"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/selector_button_pink"
+                        android:text="203" />>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/plan_dimen_hall"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/first_floor_margin_roomA"
+                    android:background="@color/map_hall"
+                    android:gravity="center|left"
+                    android:orientation="horizontal"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/plan_dimen_center"
+                    android:layout_marginLeft="@dimen/first_floor_margin_roomA">
+
+                    <pl.polsl.aeiimap.views.LightTextButton
+                        android:layout_width="@dimen/plan_dimen_horizontal_room"
+                        android:layout_height="match_parent"
+                        android:id="@+id/fragment_second_floor_221"
+                        android:background="@drawable/selector_button_turquoise"
+                        android:text="221" />
+
+
+                    <pl.polsl.aeiimap.views.LightTextButton
+                        android:id="@+id/fragment_second_floor_220"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/selector_button_turquoise"
+                        android:text="220" />
+
+                    <pl.polsl.aeiimap.views.LightTextButton
+                        android:id="@+id/fragment_second_floor_219"
+                        android:layout_width="@dimen/plan_dimen_horizontal_room"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/selector_button_green"
+                        android:text="219" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/plan_dimen_horizontal_lift"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/first_floor_margin_roomA"
+                    android:background="@color/map_hall"
+                    android:orientation="horizontal"
+                    android:visibility="invisible"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/plan_dimen_bottom"
+                    android:orientation="horizontal"
+                    android:visibility="invisible"
+                    android:weightSum="15">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="13"
+                        android:orientation="vertical"
+                        android:weightSum="3">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_marginLeft="@dimen/plan_dimen_margin_hall"
+                            android:layout_weight="2"
+                            android:background="@color/map_hall"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="2"
+                                android:orientation="vertical"
+                                android:paddingLeft="@dimen/plan_dimen_aula_hall">
+
+                                <pl.polsl.aeiimap.views.LightTextButton
+                                    android:id="@+id/fragment_second_floor_aula_c"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/selector_button_blue"
+                                    android:text="Aula C" />
+
+                                <pl.polsl.aeiimap.views.LightTextButton
+                                    android:id="@+id/fragment_second_floor_aula_b"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/selector_button_blue"
+                                    android:text="Aula B" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <pl.polsl.aeiimap.views.LightTextButton
+                            android:id="@+id/fragment_second_floor_aula_a"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/selector_button_blue"
+                            android:text="Aula A" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:orientation="vertical"
+                        android:weightSum="5">
+
+                        <pl.polsl.aeiimap.views.LightTextButton
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="4"
+                            android:background="@color/map_hall" />
+
+
+                        <pl.polsl.aeiimap.views.LightTextButton
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:background="@color/map_hall" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/plan_dimen_horizontal_lift">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/plan_dimen_center"
+                    android:layout_gravity="center"
+                    android:gravity="center|left"
+                    android:orientation="horizontal"
+                    android:weightSum="16">
+
+
+                    <pl.polsl.aeiimap.views.LightTextButton
+                        android:id="@+id/fragment_second_floor_204"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/selector_button_pink"
+                        android:text="204" />
+
+                    <pl.polsl.aeiimap.views.LightTextButton
+                        android:id="@+id/fragment_second_floor_205"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/selector_button_pink"
+                        android:text="205" />
+
+                    <pl.polsl.aeiimap.views.LightTextButton
+                        android:id="@+id/fragment_second_floor_206"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/selector_button_pink"
+                        android:text="206" />
+
+                    <pl.polsl.aeiimap.views.LightTextButton
+                        android:id="@+id/fragment_second_floor_207"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/selector_button_pink"
+                        android:text="207" />
+
+                    <pl.polsl.aeiimap.views.LightTextButton
+                        android:id="@+id/fragment_second_floor_208"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:background="@drawable/selector_button_green"
+                        android:text="208" />
+
+
+                    <pl.polsl.aeiimap.views.LightTextButton
+                        android:id="@+id/fragment_second_floor_floor_c"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/selector_button_turquoise" />
+
+                    <pl.polsl.aeiimap.views.LightTextButton
+                        android:id="@+id/fragment_second_floor_lift_c"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/selector_button_turquoise" />
+
+                    <pl.polsl.aeiimap.views.LightTextButton
+                        android:id="@+id/fragment_second_floor_209"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/selector_button_pink"
+                        android:text="209" />
+
+                    <pl.polsl.aeiimap.views.LightTextButton
+                        android:id="@+id/fragment_second_floor_210"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/selector_button_pink"
+                        android:text="210" />
+
+                    <pl.polsl.aeiimap.views.LightTextButton
+                        android:id="@+id/fragment_second_floor_211"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:background="@drawable/selector_button_green"
+                        android:text="211" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/plan_dimen_hall"
+                    android:layout_gravity="right"
+                    android:background="@color/map_hall"
+                    android:gravity="right"
+                    android:orientation="horizontal">
+
+                    <pl.polsl.aeiimap.views.LightTextButton
+                        android:id="@+id/fragment_second_floor_211b"
+                        android:layout_width="@dimen/plan_dimen_horizontal_hall"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/selector_button_pink"
+                        android:text="211b" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/plan_dimen_center"
+                    android:layout_gravity="center"
+                    android:gravity="center|left"
+                    android:orientation="horizontal"
+                    android:weightSum="16">
+
+
+                    <pl.polsl.aeiimap.views.LightTextButton
+                        android:id="@+id/fragment_second_floor_218"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/selector_button_pink"
+                        android:text="218" />
+
+                    <pl.polsl.aeiimap.views.LightTextButton
+                        android:id="@+id/fragment_second_floor_217"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/selector_button_pink"
+                        android:text="217" />
+
+                    <pl.polsl.aeiimap.views.LightTextButton
+                        android:id="@+id/fragment_second_floor_216"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/selector_button_pink"
+                        android:text="216" />
+
+
+                    <pl.polsl.aeiimap.views.LightTextButton
+                        android:id="@+id/fragment_second_floor_215a"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/selector_button_green"
+                        android:text="215a" />
+
+
+                    <pl.polsl.aeiimap.views.LightTextButton
+                        android:id="@+id/fragment_second_floor_215"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:background="@drawable/selector_button_green"
+                        android:text="215" />
+
+
+                    <pl.polsl.aeiimap.views.LightTextButton
+                        android:id="@+id/fragment_second_floor_214"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/selector_button_pink"
+                        android:text="214" />
+
+                    <pl.polsl.aeiimap.views.LightTextButton
+                        android:id="@+id/fragment_second_floor_213"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/selector_button_pink"
+                        android:text="213" />
+
+
+                    <pl.polsl.aeiimap.views.LightTextButton
+                        android:id="@+id/fragment_second_floor_212b"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:background="@drawable/selector_button_green"
+                        android:text="212b" />
+
+                    <pl.polsl.aeiimap.views.LightTextButton
+                        android:id="@+id/fragment_second_floor_212"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:background="@drawable/selector_button_green"
+                        android:text="212" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
 
 </pl.polsl.aeiimap.views.ZoomableLinearLayout>

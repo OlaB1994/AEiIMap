@@ -211,7 +211,7 @@
                     <pl.polsl.aeiimap.views.LightTextButton
                         android:layout_width="@dimen/plan_dimen_horizontal_hall"
                         android:layout_height="match_parent"
-                        android:background="@color/map_hall" />
+                        android:background="@drawable/selector_button_turquoise" />
 
                     <pl.polsl.aeiimap.views.LightTextButton
                         android:id="@+id/fragment_first_floor_101"
