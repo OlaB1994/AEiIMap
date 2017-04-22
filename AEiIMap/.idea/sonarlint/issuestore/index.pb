@@ -17,8 +17,6 @@ u
 Eapp/src/main/java/pl/polsl/aeiimap/fragments/SecondFloorFragment.java,a/c/ac43a475dc1ca7b166f00c5cf83acd6abd95e25b
 j
 :app/src/main/java/pl/polsl/aeiimap/views/DialogLayout.java,4/1/41c8fe5a9579ee38e216a8c468c47705f70cd063
-t
-Dapp/src/main/java/pl/polsl/aeiimap/views/ZoomableRelativeLayout.java,8/8/888ab9ce75198ee9bed39bfd5480662a82d2b80e
 p
 @app/src/main/java/pl/polsl/aeiimap/gestures/OnPinchListener.java,5/c/5cba66eb8abf6179bc7c1f32f5de5cfe30868c79
 f

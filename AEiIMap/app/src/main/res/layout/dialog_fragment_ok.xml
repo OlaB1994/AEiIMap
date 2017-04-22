@@ -26,7 +26,7 @@
                 android:textSize="@dimen/title_text_size"
                 />
 
-            <pl.polsl.aeiimap.views.LightTextView
+            <TextView
                 android:id="@+id/dialog_fragment_info_owner_tv"
                 android:layout_width="@dimen/text_max_width"
                 android:layout_height="wrap_content"
@@ -46,10 +46,11 @@
             <ImageView
                 android:layout_width="@dimen/picture_width"
                 android:layout_height="@dimen/picture_height"
+                android:id="@+id/dialog_fragment_iv"
                 android:background="@android:color/transparent"
                 android:scaleType="fitCenter" />
 
-            <pl.polsl.aeiimap.views.LightTextView
+            <TextView
                 android:id="@+id/dialog_fragment_room_information"
                 android:layout_width="@dimen/picture_width"
                 android:layout_height="@dimen/picture_height"
@@ -60,7 +61,7 @@
 
         </LinearLayout>
 
-        <pl.polsl.aeiimap.views.TextButton
+        <pl.polsl.aeiimap.views.LightTextButton
             android:id="@+id/dialog_fragment_info_ok_btn"
             android:layout_width="@dimen/button_size"
             android:layout_height="@dimen/button_size"
