@@ -23,4 +23,7 @@
     <dimen name="plan_dimen_horizontal">160dp</dimen>
 
     <dimen name="plan_dimen_aula_hall">60dp</dimen>
+
+
+    <dimen name="text_max_width">450dp</dimen>
 </resources>

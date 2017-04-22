@@ -22,4 +22,6 @@
     <dimen name="plan_dimen_horizontal_lift">10dp</dimen>
     <dimen name="plan_dimen_horizontal">80dp</dimen>
     <dimen name="plan_dimen_aula_hall">30dp</dimen>
+
+    <dimen name="text_max_width">300dp</dimen>
 </resources>

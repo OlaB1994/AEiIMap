@@ -18,18 +18,20 @@
 
             <pl.polsl.aeiimap.views.LightTextView
                 android:id="@+id/dialog_fragment_info_title_tv"
-                android:layout_width="wrap_content"
+                android:layout_width="@dimen/text_max_width"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/normal_margin"
                 android:text="504"
+                android:gravity="center"
                 android:textSize="@dimen/title_text_size"
                 />
 
             <pl.polsl.aeiimap.views.LightTextView
                 android:id="@+id/dialog_fragment_info_owner_tv"
-                android:layout_width="wrap_content"
+                android:layout_width="@dimen/text_max_width"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/normal_margin"
+                android:gravity="center"
                 android:text="504"
                 android:textSize="@dimen/title_text_size"
                 />
