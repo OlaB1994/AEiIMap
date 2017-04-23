@@ -7,7 +7,7 @@
           "id": "1",
           "name": "Toaleta damska",
           "owner": "",
-          "description": "",
+          "description": "dobra lokalizacja, zdarza się kolejka, stara infrastruktura",
           "imagePath": "",
           "type": 4
         },
@@ -15,23 +15,31 @@
           "id": "2",
           "name": "Toaleta męska",
           "owner": "",
-          "description": "",
+          "description": "dobra lokalizacja, zdarza się kolejka, stara infrastruktura",
           "imagePath": "",
           "type": 4
+        },
+        {
+          "id": "1009",
+          "name": "Bufet",
+          "owner": "",
+          "description": "dobre kanapki, miła obsługa, zdarzają się kolejki, niska cena",
+          "imagePath": "",
+          "type": 6
         },
         {
           "id": "3",
           "name": "Pomieszczenie nieznane",
           "owner": "",
-          "description": "",
+          "description": "brak szczegółowych informacji o przeznaczeniu pomieszczenia",
           "imagePath": "",
-          "type": 6
+          "type": 7
         },
         {
           "id": "4",
           "name": "Sala ćwiczeń",
           "owner": "",
-          "description": "",
+          "description": "prowadzone zajęcia: Analiza, Cyfrowe Przetwarzanie Obrazów i Grafika Inż., Electromagnetic Compatibility, Elektronika i Miernictwo, Fuzzy Evolutionary Hybrid Inference Systems, Introduction to Electronics, Języki Obce, Metody Komputerowe Biologii Molekularnej, Miernictwo Przemysłowe, Projektowanie Urządzen Cyfrowych, Programowanie urządzeń mobilnych, Projektowanie i Rozwój Internetu, Sztuczna inteligencja i Sieci Neuronowe, Sterowanie Robotami Mobilnymi, Sieć jako Usługa, Technologie Mobilne, Tworzenie Oprogramowania w Zmiennym Środowisku Biznesowym, Wirtualne Instrumenty i Systemy, Wizualizacja procesów przemysłowych, Środowiska Obliczeń Inżynierskich",
           "imagePath": "",
           "type": 3
         },
@@ -39,7 +47,7 @@
           "id": "5",
           "name": "Administracja",
           "owner": "",
-          "description": "",
+          "description": "Administracja wydziału Automatyki, Elektroniki i Informatyki",
           "imagePath": "",
           "type": 6
         },
@@ -47,23 +55,23 @@
           "id": "6",
           "name": "Magazyn",
           "owner": "",
-          "description": "",
+          "description": "magazyn wydziału Automatyki, Elektroniki i Informatyki",
           "imagePath": "",
-          "type": 5
+          "type": 6
         },
         {
           "id": "7",
           "name": "Pomieszczenie nieznane",
           "owner": "",
-          "description": "",
+          "description": "brak szczegółowych informacji o przeznaczeniu pomieszczenia",
           "imagePath": "",
-          "type": 6
+          "type": 7
         },
         {
           "id": "8",
           "name": "Dziekanat",
           "owner": "mgr Maria Skotnicka",
-          "description": "",
+          "description": "studia niestacjonarne (wszystkie kierunki), informatyka II stopień (stacjonarne), telefon: 237 1798",
           "imagePath": "",
           "type": 5
         },
@@ -71,7 +79,7 @@
           "id": "9",
           "name": "Dziekanat",
           "owner": "mgr Karolina Widerak",
-          "description": "dyplomy",
+          "description": "dyplomy, plany studiów, telefon: 237 1592",
           "imagePath": "",
           "type": 5
         },
@@ -79,31 +87,31 @@
           "id": "10",
           "name": "Pomieszczenie nieznane",
           "owner": "",
-          "description": "",
+          "description": "brak szczegółowych informacji o przeznaczeniu pomieszczenia",
           "imagePath": "",
-          "type": 6
+          "type": 7
         },
         {
           "id": "11",
           "name": "Pomieszczenie nieznane",
           "owner": "",
-          "description": "",
+          "description": "brak szczegółowych informacji o przeznaczeniu pomieszczenia",
           "imagePath": "",
-          "type": 6
+          "type": 7
         },
         {
           "id": "12",
           "name": "Administracja",
           "owner": "Janina Brzyska",
-          "description": "",
+          "description": "specjalista administracyjny, telefon: 32 2371406, e-mail: Janina.Brzyska@polsl.pl",
           "imagePath": "",
           "type": 5
         },
         {
           "id": "13",
-          "name": "Administracja mgr inż. Michał Henryk Stypółkowski",
-          "owner": "",
-          "description": "",
+          "name": "Administracja",
+          "owner": "mgr inż. Michał Henryk Stypółkowski",
+          "description": "starszy referent administracyjny, telefon: 32 237 1406, e-mail: Michal.Stypolkowski@polsl.pl",
           "imagePath": "",
           "type": 5
         },
@@ -111,7 +119,7 @@
           "id": "14",
           "name": "Dział IT",
           "owner": "inż. Sławomir Bednarz, Edward Szumiński, inż. Witold Warzecha",
-          "description": "",
+          "description": "specjaliści inżynieryjno-techniczni, administratorzy sieci IT",
           "imagePath": "",
           "type": 5
         },
@@ -119,15 +127,15 @@
           "id": "15",
           "name": "Pomieszczenie nieznane",
           "owner": "",
-          "description": "",
+          "description": "brak szczegółowych informacji o przeznaczeniu pomieszczenia",
           "imagePath": "",
-          "type": 6
+          "type": 7
         },
         {
           "id": "16b",
           "name": "Samorząd Studencki",
           "owner": "",
-          "description": "www.samorzad.aei.polsl.pl",
+          "description": "strona internetowa www.samorzad.aei.polsl.pl",
           "imagePath": "",
           "type": 5
         },
@@ -135,7 +143,7 @@
           "id": "16",
           "name": "Administracja",
           "owner": "Przemysław Kula",
-          "description": "",
+          "description": "pracownik wysokowykwalifikowany, konserwator, telefon: 32 237 2922, e-mail: Przemyslaw.Kula@polsl.pl",
           "imagePath": "",
           "type": 5
         },
@@ -143,7 +151,7 @@
           "id": "16a",
           "name": "Ciepłownia",
           "owner": "",
-          "description": "",
+          "description": "dostęp mają tylko osoby upoważnione",
           "imagePath": "",
           "type": 5
         },
@@ -151,7 +159,7 @@
           "id": "1001",
           "name": "Aula A",
           "owner": "",
-          "description": "zielona",
+          "description": "Audytorium A jest największą aulą na Wydziale Automatyki, Elektroniki i Informatyki Politechniki Śląskiej. Na przeszło 239 m2 powstało nowoczesne zaplecze dydaktyczne, które mieści 250 słuchaczy. Pomieszczenie jest wyposażone w najnowszy sprzęt audiowizualny. Dzięki zainstalowanym kabinom tłumaczy sala jest przystosowana do prowadzenia wykładów przez obcojęzycznych prelegentów. Specjalne pomieszczenie, sąsiadujące z aulą, sprawia, iż Audytorium A może pełnić funkcję sali koncerowej, tudzież miejsca spotkań autorskich, czy dyskusji panelowych. Audytorium A połączone jest lokalną siecią komputerową z Audytoriami B i C co umożliwia zintegrowanie wszystkich trzech sal tworząc tym samym unikatowy kompleks konferencyjny.",
           "imagePath": "",
           "type": 1
         },
@@ -159,7 +167,7 @@
           "id": "1002",
           "name": "Aula B",
           "owner": "",
-          "description": "pomarańczowa",
+          "description": "Audytorium B zajmuje powierzchnię 137 m2 i przeznaczone jest dla 166 słuchaczy. Kompleksowe prace modernizacyjne, jak również wyposażenie auli w najnowocześniejszy srzęt audiowizualny gwarantują poprawę komfortu zarówno wykładowców, jak i studentów. Zainstalowanie lokalnej sieci komputerowej ułatwia komunikację na linii wykładowca - student a jednocześnie integruje Audytorium A z B i C tworząc jedną dużą przestrzeń naukową. Dodatkowo we wszystkich trzech aulach zastosowana została bezprzewodowa sieć Wi-Fi, która zapewnia możliwość korzystania z Internetu przy zachowaniu wysokiego poziomu bezpieczeństwa przesyłania danych.",
           "imagePath": "",
           "type": 1
         },
@@ -167,7 +175,7 @@
           "id": "1003",
           "name": "Aula C",
           "owner": "",
-          "description": "niebieska",
+          "description": "Audytorium C zajmuje powierzchnię 137 m2 i przeznaczone jest dla 166 słuchaczy. Kompleksowe prace modernizacyjne, jak również wyposażenie auli w najnowocześniejszy srzęt audiowizualny gwarantują poprawę komfortu zarówno wykładowców, jak i studentów. Zainstalowanie lokalnej sieci komputerowej ułatwia komunikację na linii wykładowca - student a jednocześnie zintegruje Audytorium A z B i C tworząc jedną dużą przestrzeń naukową. Dodatkowo we wszystkich trzech aulach zastosowana została bezprzewodowa sieć Wi-Fi, która zapewni możliwość korzystania z Internetu przy zachowaniu wysokiego poziomu bezpieczeństwa przesyłania danych.",
           "imagePath": "",
           "type": 1
         },
@@ -175,7 +183,7 @@
           "id": "18",
           "name": "Sala ćwiczeń",
           "owner": "",
-          "description": "",
+          "description": "prowadzone zajęcia: Język angielski, Język obcy, Seminarium Dyplomowe, Sieci Neuronowe, Finanse i ekonomia, Industrial Project, Project Management, Podstawy Zarządzania, Techniki Adaptacyjne",
           "imagePath": "",
           "type": 3
         },
@@ -183,7 +191,7 @@
           "id": "19",
           "name": "Kierownik Dziekanatu",
           "owner": "mgr Mariola Duda",
-          "description": "kierunek: Informatyka",
+          "description": "kierunek: informatyka I stopień, plany studiów, telefon: 237 2498",
           "imagePath": "",
           "type": 5
         },
@@ -191,15 +199,15 @@
           "id": "20",
           "name": "Pomieszczenie nieznane",
           "owner": "",
-          "description": "",
+          "description": "brak szczegółowych informacji o przeznaczeniu pomieszczenia",
           "imagePath": "",
-          "type": 6
+          "type": 7
         },
         {
           "id": "21",
           "name": "Dziekanat",
           "owner": "Lic. Ewa Charczyszyn",
-          "description": "kierunek: Elektronika i Telekominikacja",
+          "description": "kierunek: Elektronika i Telekominikacja, Teleinformatyka, telefon: 237 2618",
           "imagePath": "",
           "type": 5
         },
@@ -207,7 +215,7 @@
           "id": "22",
           "name": "Dziekanat",
           "owner": "Alicja Nierychlewska",
-          "description": "kierunki: Automatyka i Robotyka, Biotechnologia",
+          "description": "kierunki: Automatyka i Robotyka, Biotechnologia, telefon: 237 2377",
           "imagePath": "",
           "type": 5
         },
@@ -215,7 +223,7 @@
           "id": "23",
           "name": "Dziekanat",
           "owner": "mgr inż. Agnieszka Deja",
-          "description": "stypendia",
+          "description": "stypendia, akademiki (wszystkie kierunki studiów), telefon: 237 1874",
           "imagePath": "",
           "type": 5
         },
@@ -223,7 +231,7 @@
           "id": "24",
           "name": "Dziekanat",
           "owner": "Izabela Kulczyna",
-          "description": "Erasmus + studia doktoranckie",
+          "description": "makrokierunek, Erasmus, studia doktoranckie, telefon: 237 1520",
           "imagePath": "",
           "type": 5
         },
@@ -231,7 +239,7 @@
           "id": "25",
           "name": "Toaleta damska",
           "owner": "",
-          "description": "",
+          "description": "zdarzają się minimalne kolejki, stosunkowo stara infrastruktura",
           "imagePath": "",
           "type": 4
         },
@@ -239,9 +247,33 @@
           "id": "26",
           "name": "Toaleta męska",
           "owner": "",
-          "description": "",
+          "description": "zdarzają się minimalne kolejki, stosunkowo stara infrastruktura",
           "imagePath": "",
           "type": 4
+        },
+        {
+          "id": "1010",
+          "name": "Szatnia",
+          "owner": "",
+          "description": "najlepiej zostawiać swoje rzeczy rano, ponieważ później może zabraknąć miejsca, zdarza się niemiła obsługa",
+          "imagePath": "",
+          "type": 6
+        },
+        {
+          "id": "1011",
+          "name": "Drukarnia",
+          "owner": "",
+          "description": "Dokument Serwis Gliwice - ksero, druk, skan, plot, archiwizacja dokumentacji, oprawa prac dyplomowych, laminowanie, wizytówki, ulotki, plakaty, pieczątki, gadżety reklamowe, serwis urządzeń kserograficznych, artykuły biorowe, artykuły papiernicze - godziny otwarcia 8:00 - 18:00 (poniedziałek czwartek), 8:00 - 17:00 (piątek), 9:00 - 13:00 (sobota), telefon: 32 237 28  61 ",
+          "imagePath": "",
+          "type": 6
+        },
+        {
+          "id": "1012",
+          "name": "Skrypty",
+          "owner": "",
+          "description": "skrypty, książki, prasa, artykuły szkolne i biurowe, ksero, papierosy - bardzo miła obsługa",
+          "imagePath": "",
+          "type": 6
         }
       ]
     },
@@ -252,23 +284,23 @@
           "id": "101",
           "name": "Toaleta damska",
           "owner": "",
-          "description": "",
+          "description": "zdarzają się minimalne kolejki, stosunkowo stara infrastruktura",
           "imagePath": "",
           "type": 4
         },
         {
           "id": "102",
-          "name": "Toaleta męska",
+          "name": "Toaleta męsks",
           "owner": "",
-          "description": "",
+          "description": "zdarzają się minimalne kolejki, stosunkowo stara infrastruktura",
           "imagePath": "",
           "type": 4
         },
         {
           "id": "103",
           "name": "Laboratorium Miernictwa Przemysłowego",
-          "owner": " Kula",
-          "description": "Zautomatyzowane Stanowisko do Badań Przetworników Ciśnienia, Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "owner": "",
+          "description": "Zautomatyzowane Stanowisko do Badań Przetworników Ciśnienia, Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania (prowadzone przedmioty: Industrial Measurements, Interfejsy w Systemach Pomiarowych, Miernictwo Przemysłowe, Niezawodność i Iskrobezpieczeństwo, Zintegrowane Czujniki Pomiarowe)",
           "imagePath": "",
           "type": 2
         },
@@ -276,7 +308,7 @@
           "id": "104",
           "name": "Gabinet",
           "owner": "mgr inż. Sebastian Kurczyk, mgr. inż. Stanisław Wrona",
-          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania - mgr inż. Sebastian Kurczykprowadzi zajęcia: Elementy Systemów SCADA oraz Technika Cyfrowa / Automatic Inference Systems. Jego zainteresowania skupiają się nad algorytmami z szeroko rozumianej grupy soft computing (logika rozmyta, sztuczne sieci neuronowe, obliczenia ewolucyjne etc.) i zagadnieniami redukcji drgań mechanicznych i hałasu. Mgr inż. Stanisław Wrona to doktorant prowadzący badania nad systemami ASAC (Active Structural Acoustic Control), zajmując się modelowaniem matematycznym, analizą sterowalności i obserwowalności drgających konstrukcji, syntezą i analizą układów aktywnej redukcji.  ",
           "imagePath": "",
           "type": 5
         },
@@ -284,7 +316,7 @@
           "id": "105",
           "name": "Gabinet",
           "owner": "dr inż. Andrzej Kozyra",
-          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania - dr inż. Andrzej Kozyra to adiunkt, w którego obszarze zainteresowań mieszczą się systemy pomiarowe, pomiary jonoselektywne, niezawodność, iskrobezpieczeństwo.",
           "imagePath": "",
           "type": 5
         },
@@ -292,15 +324,15 @@
           "id": "106",
           "name": "Gabinet",
           "owner": "mgr inż. Oliwia Krauze, mgr inż. Karol Jabłoński",
-          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania - mgr inż. Oliwia Krauze prowadzi zajęcia: Oprogramowanie Systemów Pomiarowych oraz Technika Cyfrowa / Automatic Inference Systems. Jej badania oraz zainteresowania naukowe to: cyfrowe przetwarzanie sygnałów, identyfikacja procesów, algorytmy sterowania, pomiary parametrów materiałów sypkich, programowanie obiektowe, programowanie w środowisku LabVIEW. Mgr inż. Karol Jabłoński prowadzi zajęcia: Metody Numeryczne, Miernictwo Przemysłowe, Niezawodność i Iskrobezpieczeństwo, Podstawy Miernictwa, oraz Zintegrowane Czujniki Pomiarowe.",
           "imagePath": "",
           "type": 5
         },
         {
           "id": "107",
           "name": "Gabinet",
-          "owner": "prof. dr hab. inż. Jerzy Frączek, dr hab. inż. Stanisław Waluś prof. Pol. Śl., dr inż. Janusz Żelazik",
-          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "owner": "prof. dr hab. inż. Jerzy Frączek, dr hab. inż. Stanisław Waluś prof. Pol. Śl., dr inż. Janusz Żelezik",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania - dr hab. inż. Stanisław Waluś to profesor nadzwyczajny Politechniki Śląskiej, w którego obszarach zainteresowań znajdują się pomiary strumienia płynu i pomiary poziomu. Ma na swoim koncie zgłoszenie patentowe na przepływomierz ultradźwiękowy z nakładanymi głowicami. Dr inż. Janusz Żelezik prowadzi zajęcia dydaktyczne z zakresu podstaw miernictwa, miernictwa przemysłowego oraz interfejsów pomiarowych",
           "imagePath": "",
           "type": 5
         },
@@ -308,7 +340,7 @@
           "id": "108",
           "name": "Gabinet",
           "owner": "dr inż. Roman Wyżgolik",
-          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania - dr inż. Roman Wyżgolik to adiunkt, w któego obszarze zainteresowań znajdują się: miernictwo przemysłowe, systemy pomiarowe, testery przemysłowe, oprogramowanie systemów pomiarowych w LabVIEW (posiadany certyfikat: Certified LabVIEW Developer), programowanie w LabVIEW systemów RT/FPGA (CompactRIO, sbRIO), termografia. Prowadzi zajęcia: Interfejsy w Systemach Pomiarowych, Miernictwo Przemysłowe, Measurement System, Oprogramowanie Systemów Pomiarowych, Podstawy Miernictwa, Systemy Pomiarowe w Automatyce.",
           "imagePath": "",
           "type": 5
         },
@@ -316,7 +348,7 @@
           "id": "109",
           "name": "Gabinet",
           "owner": "dr inż. Sebastian Budzan",
-          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania - dr inż. Sebastian Budzan to adiunkt, w którego obszarze zainteresowań znajdują się: wizja komputerowa w pomiarach (2D/3D), analiza i przetwarzanie obrazów barwnych i termogramów (2D/3D), termografia i termometria w podczerwieni, ekstrakcja cech w obrazach barwnych, detekcja i rozpoznawanie obiektów w obrazach barwnych i termogramach, oprogramowanie systemów wizyjnych (C, LabVIEW), oprogramowanie systemów pomiarowych. Prowadzi zajęcia: Interfejsy w Systemach Pomiarowych, Measurement System, Oprogramowanie Systemów Pomiarowych, Podstawy Miernictwa, Systemy Pomiarowe w Automatyce.",
           "imagePath": "",
           "type": 5
         },
@@ -324,7 +356,7 @@
           "id": "110",
           "name": "Gabinet",
           "owner": "dr inż. Dariusz Buchczik, dr inż. Witold Ilewicz",
-          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania - dr inż. Dariusz Buchczik to adiunkt, w którego obszarze zainteresowań znajdują sie: wzorcowanie aparatury pomiarowej, odporne procedury estymacji, metoda najmniejszej mediany kwadratów, czujniki przyspieszenia i wilgotności oraz metody ich kalibracj. Prowadzi zajęcia: Automatyzacja Badań Eksperymentalnych, Measurement System, Oprogramowanie Systemów Pomiarowych, Podstawy Miernictwa. Dr inż. Witold Ilewicz to adiunkt, w którego obszarze zainteresowań znajdują sie: Algorytmy przetwarzania i analizy sygnałów chromatograficznych i podobnych. Prowadzi zajęcia: Metody Numeryczne, Procedury Pomiarowe, Rozproszone Systemy Pomiarowe, Statystyczna kontrola jakosci.",
           "imagePath": "",
           "type": 5
         },
@@ -332,7 +364,7 @@
           "id": "111",
           "name": "Gabinet",
           "owner": "dr inż. Dariusz Buchczik, dr inż. Witold Ilewicz",
-          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania - dr inż. Dariusz Buchczik to adiunkt, w którego obszarze zainteresowań znajdują sie: wzorcowanie aparatury pomiarowej, odporne procedury estymacji, metoda najmniejszej mediany kwadratów, czujniki przyspieszenia i wilgotności oraz metody ich kalibracj. Prowadzi zajęcia: Automatyzacja Badań Eksperymentalnych, Measurement System, Oprogramowanie Systemów Pomiarowych, Podstawy Miernictwa. Dr inż. Witold Ilewicz to adiunkt, w którego obszarze zainteresowań znajdują sie: Algorytmy przetwarzania i analizy sygnałów chromatograficznych i podobnych. Prowadzi zajęcia: Metody Numeryczne, Procedury Pomiarowe, Rozproszone Systemy Pomiarowe, Statystyczna kontrola jakosci.",
           "imagePath": "",
           "type": 5
         },
@@ -340,7 +372,7 @@
           "id": "112",
           "name": "Gabinet",
           "owner": "dr inż. Tomasz Grychowski",
-          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania - dr inż. Tomasz Grychowski to adiunkt, w którego obszarze zainteresowań znajdują sie: wykorzystanie logiki rozmytej w systemach pomiarowych, rozmyte systemy ekspertowe wspomagające podejmowanie decyzji, zagadnieniach niezawodności i bezpieczeństwa funkcjonalnego, czujniki i aparatura do pomiaru składu gazu, pomiary fizykochemiczne atmosfery. Prowadzi zajęcia: Industrial Measurements, Interfejsy w Systemach Pomiarowych, Niezawodność i Iskrobezpieczeństwo, Oprogramowanie Systemów Pomiarowych, Podstawy Miernictwa, druga połowa semestru, Rozproszone Systemy Pomiarowe, Systemy Pomiarowe w Automatyce, Zintegrowane Czujniki Pomiarowe.",
           "imagePath": "",
           "type": 5
         },
@@ -348,7 +380,7 @@
           "id": "113",
           "name": "Gabinet",
           "owner": "dr inż. Józef Wiora",
-          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania - dr inż. Józef Wiora to adiunkt, w którego obszarze zainteresowań znajdują sie potencjometryczne pomiary wieloskładnikowe oraz niepewność modeli zjawisk fizykochemicznych. Prowadzi zajęcia: Industrial Measurements, Miernictwo Przemysłowe, Measurement System, Podstawy Miernictwa, Sterowniki w Systemach Pomiarowych.",
           "imagePath": "",
           "type": 5
         },
@@ -356,7 +388,7 @@
           "id": "114",
           "name": "Gabinet",
           "owner": "dr inż. Piotr Krauze, mgr inż. Leszek Nowak, (dr inż. Łukasz Malinowski)",
-          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania - dr inż. Piotr Krauze prowadzi badania nad półaktywnymi układami tłumienia drgań mechanicznych oraz sterowaniem układami zawieszenia pojazdów drogowych z tłumikami magnetoreologicznymi. Prowadzi przedmioty: Technika Cyfrowa, Systemy Mikroprocesorowe, Elementy Systemów SCADA, Sterowniki i Sieci Przemysłowe. Mgr inż. Leszek Nowak prowadzi badania nad półaktywnymi układami tłumienia drgań mechanicznych oraz systemami sterowania układami mechanicznymi. Wynokuje także badania mechaniczne i symulacyjne konstrukcji. Prowadzi przedmioty: Systemy Operacyjne, Metody Numeryczne.",
           "imagePath": "",
           "type": 5
         },
@@ -364,7 +396,7 @@
           "id": "115",
           "name": "Gabinet",
           "owner": "dr inż. Alicja Wiora, dr inż. Józef Wiora",
-          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania - dr inż. Alicja Wiora to adiunkt, w której obszarze zainteresowań znajdują sie pomiary potencjometryczne oraz właściwości dynamiczne elektrod jonoselektywnych. Prowadzi zajęcia: Automatyzacja Badań Eksperymentalnych, Miernictwo Przemysłowe, Measurement System, Podstawy Miernictwa. Dr inż. Józef Wiora to adiunkt, w którego obszarze zainteresowań znajdują się potencjometryczne pomiary wieloskładnikowe oraz niepewność modeli zjawisk fizykochemicznych. Prowadzi zajęcia: Industrial Measurements, Miernictwo Przemysłowe, Measurement System, Podstawy Miernictwa, Sterowniki w Systemach Pomiarowych.",
           "imagePath": "",
           "type": 5
         },
@@ -372,7 +404,7 @@
           "id": "116",
           "name": "Laboratorium Miernictwa Przymysłowego, Laboratorium Izotopowe",
           "owner": "",
-          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania (prowadzone zajęcia: Miernictwo Przemysłowe, Projekt Inżynierski, Sensors and Actuators)",
           "imagePath": "",
           "type": 2
         },
@@ -396,7 +428,7 @@
           "id": "119",
           "name": "Gabinet",
           "owner": "dr hab. inż. Marcin Gorawski prof. nzw. w Pol. Śl., dr inż. Rafał Malczok, mgr inż. Anna Gorawska, mgr inż. Krzysztof Pasterak",
-          "description": "Instytut Informatyki, Zakład Teorii Informatyki, Zespół Teorii Przestrzeni Danych i Algorytmów",
+          "description": "Instytut Informatyki, Zakład Teorii Informatyki, Zespół Teorii Przestrzeni Danych i Algorytmów - dr hab. inż. Marcin Gorawski to profesor nadzwyczajny Politechniki Śląskiej, w którego obszarze zainteresowań znajdują się: przestrzenie danych i algorytmów, magazynowane danych, eksploracja danych. Prowadzi zajęcia: Hurtownie danych, Hurtownie Danych i Systemy Eksploracji Danych, Teoria Przestrzeni Danych i Algorytmów, Zaawansowane Bazy Danych i Hurtownie Danych, Seminarium Dyplomowe.",
           "imagePath": "",
           "type": 5
         },
@@ -404,7 +436,7 @@
           "id": "120",
           "name": "Gabinet",
           "owner": "dr inż. Ryszard Jakuszewski",
-          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania - dr inż. Ryszard Jakuszewski to adiunkt Politechniki Śląskiej. Jego zainteresowania skupione są na problemach wizualizacji i sterowania procesami przemysłowymi. Od wielu lat prowadzi autoryzowane kursy dotyczące systemów SCADA (FIX32, iFIX i Intouch) oraz sterowników programowalnych PLC (GE Fanuc). Jest współautorem polskich lokalizacji systemów FIX i iFIX. Wykonał i uruchomił samodzielnie oraz we współpracy z kolegami ponad 25 aplikacji przemysłowych typu SCADA. Prowadzi zajęcia: Aplikacje Systemów Sterowania, Elementy Systemów SCADA.",
           "imagePath": "",
           "type": 5
         },
@@ -412,7 +444,7 @@
           "id": "121",
           "name": "Laboratorium",
           "owner": "",
-          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania (prowadzone zajęcia: Aplikacje Systemów Sterowania, Elementy Systemów SCADA, Final Project Seminar, Sterowniki w Systemach Pomiarowych, Wielopoziomowe Systemy Sterowania)",
           "imagePath": "",
           "type": 2
         },
@@ -420,7 +452,7 @@
           "id": "122",
           "name": "Laboratorium",
           "owner": "",
-          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania (prowadzone zajęcia: Elementy Systemów SCADA, Estymacja i Podejmowanie Decyzji, Industrial Networks \u0026 Databases, Sterowniki i Sieci Przemyslowe, Sterowniki w Systemach Pomiarowych)",
           "imagePath": "",
           "type": 2
         },
@@ -444,7 +476,7 @@
           "id": "125",
           "name": "Biuro Dziekana",
           "owner": "lic. Nina Ryś - Protas",
-          "description": "",
+          "description": "specjalista administracyjny, telefon: 32 2371292, e-mail: Nina.Rys@polsl.pl",
           "imagePath": "",
           "type": 5
         },
@@ -452,7 +484,7 @@
           "id": "126",
           "name": "Pełnomocnik Kwestora",
           "owner": "mgr inż. Małgorzata Gielarowska-Kosior",
-          "description": "",
+          "description": "specjalista finansowy-Pełnomocnik Kwestora, telefon: 32 2371244, e-mail: Malgorzata.Gielarowska-Kosior@polsl.pl",
           "imagePath": "",
           "type": 5
         },
@@ -460,7 +492,7 @@
           "id": "127",
           "name": "Biuro Dziekana",
           "owner": "mgr Maria Skory",
-          "description": "",
+          "description": "starszy specjalista administracyjny, telefon: 32 2371790, e-mail: Maria.Skory@polsl.pl",
           "imagePath": "",
           "type": 5
         },
@@ -468,7 +500,7 @@
           "id": "128",
           "name": "Prodziekani",
           "owner": "dr inż. Krzysztof Tokarz, dr hab. inż. Monika Kwoka, dr inż. Katarzyna Mościńska, dr inż. Krzysztof Simek",
-          "description": "",
+          "description": "Prodziekan ds. Studenckich dla kierunku Automatyka i Robotyka, Biotechnologia, Elektronika i Telekomunikacja, Informatyka, dr inż. Katarzyna Mościńska (telefon: 32 2371948), Prodziekan ds. Ogólnych, dr inż. Krzysztof Simek (telefon: 32 2371394), Prodziekan ds. Organizacji i Rozwoju, dr inż. Krzysztof Tokarz (telefon: 32 2371947), Prodziekan ds. Nauki i Współpracy Międzynarodowej dr hab. inż. Monika Kwoka (telefon: 32 2371949)",
           "imagePath": "",
           "type": 5
         },
@@ -476,7 +508,7 @@
           "id": "129",
           "name": "Dziekan",
           "owner": "prof. dr hab. inż. Adam Czornik",
-          "description": "Kierownik Biura Dziekana mgr Barbara Małysiak-Kaczmarczyk, Biuro Dziekana mgr Beata Mryka",
+          "description": "Kierownik Biura Dziekana mgr Barbara Małysiak-Kaczmarczyk, Biuro Dziekana mgr Beata Mryka, telefon: 32 2371310",
           "imagePath": "",
           "type": 5
         },
@@ -484,15 +516,39 @@
           "id": "130",
           "name": "Biuro Dziekana",
           "owner": "mgr Bogusława Kubosz",
-          "description": "",
+          "description": "specjalista administracyjny, telefon: 32 2371946, e-mail: Boguslawa.Kubosz@polsl.pl",
           "imagePath": "",
           "type": 5
+        },
+        {
+          "id": "1007",
+          "name": "Toaleta",
+          "owner": "",
+          "description": "toaleta dla niepełnosprawnych, wysoki standard",
+          "imagePath": "",
+          "type": 4
+        },
+        {
+          "id": "1008",
+          "name": "kantyna",
+          "owner": "",
+          "description": "pomieszczenie specjalne",
+          "imagePath": "",
+          "type": 7
+        },
+        {
+          "id": "1006",
+          "name": "Bufet",
+          "owner": "",
+          "description": "pyszne kanapki, szybka i miła obsługa, zdarzają się kolejki, średnia cena, na pewno odrobinę wyższa niż w bufecie na pierwszym piętrze",
+          "imagePath": "",
+          "type": 6
         },
         {
           "id": "131",
           "name": "Laboratorium Komputerowe",
           "owner": "",
-          "description": "",
+          "description": "prowadzone zajęcia: Biometria, Bioinformatyka w ekologii i epidemiologii, CISCO CCNA, Genomika Funkcjonalna i Proteomika, Informatyka, Modelowanie Biosystemów, Podstawy Automatyki i Miernictwa Przemysłoweg, Population Genetic, Projektowanie i Rozwój Internetu, Sztuczna Inteligencja i Sieci Neuronowe, Statystyczna kontrola jakosci, Transdukcja Sygnałów i Regulacja w Układach Biologicznych, Wizja komputerowa i multimedia, Wnioskowanie Statystyczne, Wybrane Systemy Programowania",
           "imagePath": "",
           "type": 2
         },
@@ -500,15 +556,39 @@
           "id": "132",
           "name": "Dyrektor Administracyjny",
           "owner": "mgr inż. Jarosław Homa",
-          "description": "Kierownik Działu IT",
+          "description": "Kierownik Działu IT, Dyrektor Administracyjny, telefon: 32 2371406, e-mail: Jaroslaw.Homa@polsl.pl",
           "imagePath": "",
           "type": 5
+        },
+        {
+          "id": "1001",
+          "name": "Aula A",
+          "owner": "",
+          "description": "Audytorium A jest największą aulą na Wydziale Automatyki, Elektroniki i Informatyki Politechniki Śląskiej. Na przeszło 239 m2 powstało nowoczesne zaplecze dydaktyczne, które mieści 250 słuchaczy. Pomieszczenie jest wyposażone w najnowszy sprzęt audiowizualny. Dzięki zainstalowanym kabinom tłumaczy sala jest przystosowana do prowadzenia wykładów przez obcojęzycznych prelegentów. Specjalne pomieszczenie, sąsiadujące z aulą, sprawia, iż Audytorium A może pełnić funkcję sali koncerowej, tudzież miejsca spotkań autorskich, czy dyskusji panelowych. Audytorium A połączone jest lokalną siecią komputerową z Audytoriami B i C co umożliwia zintegrowanie wszystkich trzech sal tworząc tym samym unikatowy kompleks konferencyjny.",
+          "imagePath": "",
+          "type": 1
+        },
+        {
+          "id": "1002",
+          "name": "Aula B",
+          "owner": "",
+          "description": "Audytorium B zajmuje powierzchnię 137 m2 i przeznaczone jest dla 166 słuchaczy. Kompleksowe prace modernizacyjne, jak również wyposażenie auli w najnowocześniejszy srzęt audiowizualny gwarantują poprawę komfortu zarówno wykładowców, jak i studentów. Zainstalowanie lokalnej sieci komputerowej ułatwia komunikację na linii wykładowca - student a jednocześnie integruje Audytorium A z B i C tworząc jedną dużą przestrzeń naukową. Dodatkowo we wszystkich trzech aulach zastosowana została bezprzewodowa sieć Wi-Fi, która zapewnia możliwość korzystania z Internetu przy zachowaniu wysokiego poziomu bezpieczeństwa przesyłania danych.",
+          "imagePath": "",
+          "type": 1
+        },
+        {
+          "id": "1003",
+          "name": "Aula C",
+          "owner": "",
+          "description": "Audytorium C zajmuje powierzchnię 137 m2 i przeznaczone jest dla 166 słuchaczy. Kompleksowe prace modernizacyjne, jak również wyposażenie auli w najnowocześniejszy srzęt audiowizualny gwarantują poprawę komfortu zarówno wykładowców, jak i studentów. Zainstalowanie lokalnej sieci komputerowej ułatwia komunikację na linii wykładowca - student a jednocześnie zintegruje Audytorium A z B i C tworząc jedną dużą przestrzeń naukową. Dodatkowo we wszystkich trzech aulach zastosowana została bezprzewodowa sieć Wi-Fi, która zapewni możliwość korzystania z Internetu przy zachowaniu wysokiego poziomu bezpieczeństwa przesyłania danych.",
+          "imagePath": "",
+          "type": 1
         },
         {
           "id": "1004",
           "name": "Aula D",
           "owner": "",
-          "description": "",
+          "description": "Wyposażenie auli pozwala na przeprowadzenie wykładów oraz prezentacji multimedialnej z wykorzystaniem materiałów przygotowanych na komputerze. Dzięki zastosowaniu wizualizera istnieje możliwość prezentacji materiałów sporządzonych na kartce papieru, foliogramie, slajdzie, lub też dowolnego przedmiotu trójwymiarowego. Aula wyposażona jest w: wideoprojektor multimedialny, wizualizer, system nagłośnienia z mikrofonem bezprzewodowym, monitor podglądowy.",
           "imagePath": "",
           "type": 1
         },
@@ -516,7 +596,7 @@
           "id": "1005",
           "name": "Aula E",
           "owner": "",
-          "description": "",
+          "description": "Wyposażenie auli pozwala na przeprowadzenie wykładów oraz prezentacji multimedialnej z wykorzystaniem materiałów przygotowanych na komputerze. Dzięki zastosowaniu wizualizera istnieje możliwość prezentacji materiałów sporządzonych na kartce papieru, foliogramie, slajdzie, lub też dowolnego przedmiotu trójwymiarowego. Aula wyposażona jest w: wideoprojektor multimedialny, wizualizer, system nagłośnienia z mikrofonem bezprzewodowym, monitor podglądowy.",
           "imagePath": "",
           "type": 1
         }
@@ -529,7 +609,7 @@
           "id": "222",
           "name": "Aula F",
           "owner": "",
-          "description": "",
+          "description": "zajęcia:  Projekt doktorski, Rada Wydziału, Seminarium Biologia Systemów, Zebranie Instytutu Elektroniki, Kolegium Instytutu, Zebranie Instytutu Informatyki",
           "imagePath": "",
           "type": 1
         },
@@ -538,14 +618,14 @@
           "name": "Sala Obrad",
           "owner": "",
           "description": "",
-          "imagePath": "",
+          "imagePath": "w sali tej organizowane są m.in. zebrania wydziałowe oraz obrony prac dyplomowych",
           "type": 6
         },
         {
           "id": "220",
           "name": "Biblioteka",
           "owner": "Małgorzata Jaskólska, mgr inż. Małgorzata Mołoń",
-          "description": "",
+          "description": "telefon kontaktowy: 32 237-20-08; godziny pracy: 9-14",
           "imagePath": "",
           "type": 6
         },
@@ -553,7 +633,7 @@
           "id": "219",
           "name": "Laboratorium",
           "owner": "",
-          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania (prowadzone zajęcia: Constraint Logic Programming, Elementy Systemów SCADA, Estymacja i Podejmowanie Decyzji, Industrial Networks \u0026 Databases, Programowanie Systemów Sterowania, Sterowniki Dedykowane, Sterowniki i Sieci Przemyslowe, Sterowniki w Systemach Pomiarowych",
           "imagePath": "",
           "type": 2
         },
@@ -561,7 +641,7 @@
           "id": "218",
           "name": "Gabinet",
           "owner": "dr inż. Janusz Wyrał",
-          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania - dr inż. Janusz Wyrał to adiunkt, w którego obszarze zainteresowań znajdują sie: sterowalność i obserwowalność układów dynamicznych, programowanie sterowników PLC, systemy operacyjne czasu rzeczywistego, analiza numeryczna. Prowadzi zajęcia: Metody Numeryczne, Numerical Methods, Systemy Operacyjne, Sterowniki i Sieci Przemyslowe.",
           "imagePath": "",
           "type": 5
         },
@@ -569,7 +649,7 @@
           "id": "217",
           "name": "Gabinet",
           "owner": "dr inż. Jacek Loska",
-          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania - dr inż. Jacek Loska to adiunkt, w którego obszarze zainteresowań znajdują sie: systemy pomiarowe ruchu oka, układy sterowania na bazie mikrokontrolerów, zastosowanie przetworników A/C i C/A, problemy komunikacyjne w sieciach. Prowadzone zajęcia: Sterowniki Dedykowane, Systemy Operacyjne.",
           "imagePath": "",
           "type": 5
         },
@@ -577,7 +657,7 @@
           "id": "216",
           "name": "Pracownia Techniczna Obsługi Laboratoriów",
           "owner": "Piotr Kotowicz",
-          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania - Tel.: (32) 237 10 58, Email: Piotr.Kotowicz@polsl.pl",
           "imagePath": "",
           "type": 5
         },
@@ -585,7 +665,7 @@
           "id": "215a",
           "name": "Laboratorium",
           "owner": "",
-          "description": "Lab AiR, Lab SP",
+          "description": "Lab AiR, Lab SP (prowadzone zajęcia: Interfejsy w Systemach Pomiarowych, Oprogramowanie Systemów Pomiarowych, Systemy Pomiarowe w Automatyce)",
           "imagePath": "",
           "type": 2
         },
@@ -593,7 +673,7 @@
           "id": "215",
           "name": "Laboratorium",
           "owner": "",
-          "description": "Lab AiR, Lab SP",
+          "description": "Lab AiR, Lab SP (prowadzone zajęcia: Industrial Measurements, Miernictwo Przemysłowe, Measurement System, Niezawodność i Iskrobezpieczeństwo, Rozproszone Systemy Pomiarowe, Zintegrowane Czujniki Pomiarowe.",
           "imagePath": "",
           "type": 2
         },
@@ -601,7 +681,7 @@
           "id": "214",
           "name": "Gabinet",
           "owner": "dr inż. Małgorzata Michalczyk, dr inż. Krzysztof Czyż",
-          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania - dr inż. Małgorzata Michalczyk to adiunkt, w której obszarze zainteresowań znajdują sie: cyfrowe przetwarzanie sygnałów, sterowanie adaptacyjne, identyfikacja procesów, aktywne tłumienie hałasu - tworzenie przestrzennych stref ciszy. Prowadzi zajęcia: technika mikroprocesorowa, sterowniki dedykowane, aktywne tłumienie hałasu i drgań, cyfrowe przetwarzanie sygnałów, cyfrowe przetwarzanie sygnałów akustycznych, applied digital signal processing, identyfikacja procesów, metody numeryczne, metody prognozowania, systemy automatycznego wnioskowania, optimisation and decision making, programowanie systemów sterowania, techniki adaptacyjne, sieci neuronowe, adaptive systems in control. Dr inż. Krzysztof Czyż to adiunkt, w którego obszarze zainteresowań znajdują sie: cyfrowe przetwarzanie sygnałów, systemy mikroprocesorowe, systemy operacyjne czasu rzeczywistego, układy sterowania oparte o struktury FPGA. Prowadzi zajęcia: Technika Cyfrowa / Automatic Inference Systems.",
           "imagePath": "",
           "type": 5
         },
@@ -609,7 +689,7 @@
           "id": "213",
           "name": "Gabinet",
           "owner": "dr inż. Przemysław Skurowski, mgr inż. Wojciech Łabaj, mgr inż. Marcin Paszkuta, mgr inż. Karol Trzcionka",
-          "description": "Instytut Informatyki, Zespół Grafiki, Wizji i Symulacji Komputerowej",
+          "description": "Instytut Informatyki, Zespół Grafiki, Wizji i Symulacji Komputerowej - dr inż. Przemysław Skurowski to adiunkt, w którego obszarze zainteresowań znajdują sie: półtonowanie, ocena jakości obrazów, przetwarzanie i rozpoznawanie obrazów, modelowanie ludzkiej percepcji wizyjnej, przetwarzanie danych ruchu. Prowadzi zajęcia: Advanced Operating Systems, Computer Graphics, Grafika Komputerowa, Grafika i komunikacja człowiek-komputer, Operating Systems, Programowanie w API Graficznych.",
           "imagePath": "",
           "type": 5
         },
@@ -625,9 +705,9 @@
           "id": "211a",
           "name": "Pomieszczenie nieznane",
           "owner": "",
-          "description": "",
+          "description": "brak szczegółowych informacji o przeznaczeniu pomieszczenia",
           "imagePath": "",
-          "type": 6
+          "type": 7
         },
         {
           "id": "211b",
@@ -641,15 +721,15 @@
           "id": "211",
           "name": "Laboratorium Systemów Pomiarowych i Interfejsów",
           "owner": "",
-          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania (prowadzone zajęcia: Cyfrowe Przetwarzanie Sygnałow, Diagnostic Systems for Machine, Inteligentne Przetworniki Pomiarowe, Internet Technologies, Interfejsy w Systemach Pomiarowych, Miernictwo Przemysłowe, Projekt Inżynierski, Programowanie Ograniczeniowe, Procedury Pomiarowe/Teoria Estymacji, Seminarium Dyplomowe, Sensors and Actuators, Układy Elektroniczne w Aparaturze Pomiarowej",
           "imagePath": "",
           "type": 2
         },
         {
           "id": "210",
           "name": "Gabinet",
-          "owner": "mgr inż. Jarosław Rzepacki",
-          "description": "",
+          "owner": "mgr inż. Jarosław Rzepecki",
+          "description": "Mgr inż. Jarosław Rzepecki bada: lokalizację i rozpoznawanie źródeł hałasu, systemy pomiarowe, systemy wizyjne, półaktywne układy tłumienia drgań mechanicznych, programowanie w środowisku LabVIEW. Przygotowuje i prowadzi zajęcia laboratoryjne i projektowe z przedmiotów: Oprogramowanie Systemów Pomiarowych, Podstawy Miernictwa, Metody Numeryczne.",
           "imagePath": "",
           "type": 5
         },
@@ -657,7 +737,7 @@
           "id": "209",
           "name": "Laboratorium Pomiarów Termowizyjnych i Temperatury",
           "owner": "",
-          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania (prowadzone zajęcia: Interfejsy w Systemach Pomiarowych, Systemy Pomiarowe w Automatyce, Zintegrowane Czujniki Pomiarowe)",
           "imagePath": "",
           "type": 2
         },
@@ -665,15 +745,15 @@
           "id": "208a",
           "name": "Pomieszczenie nieznane",
           "owner": "",
-          "description": "",
+          "description": "brak szczegółowych informacji o przeznaczeniu pomieszczenia",
           "imagePath": "",
-          "type": 6
+          "type": 7
         },
         {
           "id": "208",
           "name": "Laboratorium Podstaw Miernictwa",
           "owner": "dr inż. Józef Wiora",
-          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania (prowadzone zajęcia: Measurement System, Podstawy Miernictwa)",
           "imagePath": "",
           "type": 2
         },
@@ -681,7 +761,7 @@
           "id": "207",
           "name": "Pracownia techniczna obsługi laboratoriów",
           "owner": "Lech Jaskólski",
-          "description": "",
+          "description": "Tel.: (32) 237 10 58, Email: Lech.Jaskolski@polsl.pl",
           "imagePath": "",
           "type": 5
         },
@@ -689,7 +769,7 @@
           "id": "206",
           "name": "Gabinet",
           "owner": "dr inż. Szymon Ogonowski",
-          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania - dr inż. Szymon Ogonowski to adiunkt, w którego obszarze zainteresowań znajdują sie: projektowanie struktury systemów sterowania, algorytmy sterowania i identyfikacji, modelowanie i sterowanie procesów przeróbczych, systemy sterowania ogrzewaniem budynków, przetwarzanie sygnałów, technologie internetowe i systemy wizualizacyjne. Prowadzi zajęcia o charakterze wykładu z przedmiotów: Programowanie Ograniczeniowe, Constraint Logic Programming. Prowadzi zajęcia laboratoryjne i projekowe z przedmiotów: Technologie Internetowe, Programowanie Systemów Sterowania, Identyfikacja Procesów, Komputerowe Systemy Sterowania, Sterownie Procesów, Automatyzacja Procesów Ciągłych, Systemy Ekspertowe, Systemy Automatycznego Wnioskowania, Sterowniki Dedykowane, Sterowniki i Sieci Przemysłowe, Programowanie Ograniczeniowe, Technika Cyfrowa, Constraint Logic Programming, Estimation and Identification, Industrial Networks and Databases.",
           "imagePath": "",
           "type": 5
         },
@@ -697,7 +777,7 @@
           "id": "205",
           "name": "Gabinet",
           "owner": "prof. dr hab. inż. czł. rzecz. PAN Jerzy Klamka",
-          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania - prof. Jerzy Klamka zajmuje się teorią układów dynamicznych, teorią sterowania oraz informatyką kwantową. Jest promotorem 5 przewodów doktorskich, recenzentem 30 prac doktorskich, recenzentem 25 przewodów habilitacyjnych, recenzentem 11 wniosków na tytuł profesora. Prace badawcze: kierownik 4 grantów KBN, oraz główny wykonawca 2 grantów KBN, kierownik oraz wykonawca w 20 pracach naukowo-badawczych realizowanych między innymi w ramach Resortowych Programów Badawczych, kierownik w 8 pracach BW (badania własne) oraz wykonawca w 8 pracach BK (badania kierunkowe).",
           "imagePath": "",
           "type": 5
         },
@@ -705,7 +785,7 @@
           "id": "204",
           "name": "Gabinet",
           "owner": "dr inż. Krzysztof Mazur",
-          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania - dr inż. Krzysztof Mazur prowadzi następujące zajęcia: Estymacja i Podejmowanie Decyzji, Przetwarzanie Sygnałów w Bioakustyce, Technika Cyfrowa / Automatic Inference Systems, Embedded and Programmable Logic Systems Design, Systemy Mikroprocesorowe/Podstawy Cyfrowego Przetwarzania Sygnałów, Systemy Operacyjne.",
           "imagePath": "",
           "type": 5
         },
@@ -713,7 +793,7 @@
           "id": "203",
           "name": "Gabinet",
           "owner": "dr inż. Janusz Hajda",
-          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania",
+          "description": "Instytut Automatyki, Zakład Pomiarów i Systemów Sterowania - prowadzenie zajęć laboratoryjnych z przedmiotów: Prolog i systemy ekspertowe, automatyczne systemy wnioskowania, programowanie logiczne z ograniczeniami, metody numeryczne, technika mikroprocesorowa, automatyka i sterowanie, sterowniki dedykowane, sterowniki programowalne, rozproszone systemy sterowania, komputerowe; prowadzenie wykładu z przedmiotu: Systemy Automatycznego Wnioskowania",
           "imagePath": "",
           "type": 5
         },
@@ -721,7 +801,7 @@
           "id": "202",
           "name": "Toaleta damska",
           "owner": "",
-          "description": "",
+          "description": "brak kolejek, stosunkowo nowa infrastruktura",
           "imagePath": "",
           "type": 4
         },
@@ -729,7 +809,7 @@
           "id": "201",
           "name": "Toaleta męska",
           "owner": "",
-          "description": "",
+          "description": "brak kolejek, stosunkowo nowa infrastruktura",
           "imagePath": "",
           "type": 4
         },
@@ -737,15 +817,15 @@
           "id": "223",
           "name": "Laboratorium",
           "owner": "Małgorzata Jaskólska",
-          "description": "Instytut Automatyki, Zakład Urządzeń i Układów Automatyki",
+          "description": "Instytut Automatyki, Zakład Urządzeń i Układów Automatyki - Małgorzata Jaskólska to specjalista administracyjny",
           "imagePath": "",
           "type": 2
         },
         {
           "id": "224",
           "name": "Gabinet",
-          "owner": "mgr inż. Henryk Jakbiec",
-          "description": "specjalista, Instytut Automatyki, Zakład Urządzeń i Układów Automatyki",
+          "owner": "mgr inż. Henryk Jakubiec",
+          "description": "specjalista, Instytut Automatyki, Zakład Urządzeń i Układów Automatyki - pracownik inżynieryjno-techniczny, specjalista",
           "imagePath": "",
           "type": 5
         },
@@ -753,7 +833,7 @@
           "id": "225",
           "name": "Gabinet",
           "owner": "dr inż. Piotr Skupin",
-          "description": "Instytut Automatyki, Zakład Urządzeń i Układów Automatyki",
+          "description": "Instytut Automatyki, Zakład Urządzeń i Układów Automatyki - dr inż. Piotr Skupin to adiunkt, w którego obszarze zainteresowań znajdują się: modelowanie, symulacja oraz analiza jakościowa układów biotechnologicznych. Prowadzi zajęcia: Dynamika Procesów, Inteligetne Urządzenia Wykonawcze, Sterowanie Systemami Biologicznymi, Symulacja Układów Sterowania.",
           "imagePath": "",
           "type": 5
         },
@@ -761,7 +841,7 @@
           "id": "226",
           "name": "Gabinet",
           "owner": "dr inż. Krzysztof Stebel",
-          "description": "Instytut Automatyki, Zakład Urządzeń i Układów Automatyki",
+          "description": "Instytut Automatyki, Zakład Urządzeń i Układów Automatyki - obszar zainteresowań badawczych: modelowanie i sterowanie procesów neutralizacji, zaawansowane sterowanie procesów nieliniowych, sterowniki programowalne. W swojej działalności naukowej zajmuje się modelowaniem i symulacją jak również programowaniem sterowników przemysłowych. Obecnie jego zainteresowania skoncentrowane są wokół zagadnień strojenia układów regulacji. Prowadzone zajęcia: Integracja Systemów Automatyki, Inteligetne Urządzenia Wykonawcze, Symulacja Układów Sterowania, Sterowniki i Sieci Przemyslow, Urządzenia Automatyki.",
           "imagePath": "",
           "type": 5
         },
@@ -777,7 +857,7 @@
           "id": "228",
           "name": "Gabinet",
           "owner": "dr hab. inż. Dariusz Choiński prof. Pol. Śl.",
-          "description": "Instytut Automatyki, Zakład Urządzeń i Układów Automatyki",
+          "description": "Instytut Automatyki, Zakład Urządzeń i Układów Automatyki - dr hab. inż. Dariusz Choiński to profesor nadzwyczajny Politechniki Śląskiej, w którego obszarze zainteresowań znajdują się: sterowanie w biotechnologii środowiskowej oraz modelowanie i symulacja procesów przemysłowych. Dziedziny nauki: Automatyka i robotyka, Technologie informacyjne, Metody komputerowe w nauce, Inżynieria ochrony środowiska.",
           "imagePath": "",
           "type": 5
         },
@@ -793,15 +873,15 @@
           "id": "230",
           "name": "Gabinet",
           "owner": "dr hab. inż. Witold Nocoń",
-          "description": "Instytut Automatyki, Zakład Urządzeń i Układów Automatyki",
+          "description": "Instytut Automatyki, Zakład Urządzeń i Układów Automatyki - dr hab. inż. Witold Nocoń to adunkt Politechniki Śląskiej, w którego obszarze zainteresowań znajdują się: modelowanie oraz symulacja i sterowanie procesami w technologii oczyszczania ścieków. Prowadzi zajęcia: Systemy zaopatrzenia w wodę i odprowadzania ścieków, Technologia wody i ścieków, Budownictwo, Technologia i organizacja robót instalacyjnych, Technologia wody i ścieków, Water and wastewater treatment facilities hydraulics.",
           "imagePath": "",
           "type": 5
         },
         {
           "id": "231",
           "name": "Gabinet",
-          "owner": "dr inż. Krzysztof Polaków",
-          "description": "Instytut Automatyki, Zakład Urządzeń i Układów Automatyki",
+          "owner": "dr inż. Grzegorz Polaków",
+          "description": "Instytut Automatyki, Zakład Urządzeń i Układów Automatyki - obszar zainteresowań badawczych: zagadnienia związane z IT w automatyce przemysłowej, czyli m.in.: komunikacja w rozproszonych układach sterowania, komputerowe sieci przemysłowe, języki programowania sterowników PLC, technologie agentowe w sterowaniu. Prowadzone zajęcia: Systemy Transmisji i Ochrona Danych, Symulacja Układów Sterowania, Wirtualne Instrumenty i Systemy, Graphical Programming, Process Dynamics and Control, Programowanie obliczeń komputerowych.",
           "imagePath": "",
           "type": 5
         },
@@ -809,7 +889,7 @@
           "id": "232",
           "name": "Gabinet",
           "owner": "dr inż. Piotr Łaszczyk",
-          "description": "Instytut Automatyki, Zakład Urządzeń i Układów Automatyki",
+          "description": "Instytut Automatyki, Zakład Urządzeń i Układów Automatyki - obszar zainteresowań badawczych: regulacja procesów ciągłych z zastosowaniem algorytmów klasycznych i zaawansowanych predykcyjnych z wykorzystaniem uproszczonych modeli tych procesów, raktyczne aspekty implementacji zaawansowanych algorytmów regulacji w programowalnym sprzęcie automatyki, modelowanie matematyczne procesów technologicznych, techniki symulacji cyfrowej modeli matematycznych. Prowadzi wykłady z: Podstawy dynamiki procesów, Urządzenia automatyki, Elementy automatyki, Process Dynamisc \u0026 Control, Regualatory i algorytmy regulacji, Programowanie sterowników. Prowadzi ćwiczenia tablicowe z: Podstawy dynamiki procesów, Urządzenia automatyki, Process Dynamisc \u0026 Control. Prowadzi laboratoria z: Podstawy dynamiki procesów, Modelowanie i symulacja, Process Dynamisc \u0026 Control, Regualatory i algorytmy regulacji, Algorytmy sterowania procesami biotechnologicznymi.",
           "imagePath": "",
           "type": 5
         },
@@ -817,7 +897,7 @@
           "id": "233",
           "name": "Gabinet",
           "owner": "mgr inż. Paweł Nowak, mgr inż. Michał Frątczak",
-          "description": "Instytut Automatyki, Zakład Urządzeń i Układów Automatyki",
+          "description": "Instytut Automatyki, Zakład Urządzeń i Układów Automatyki - mgr inż. Paweł Nowak prowadzi zajęcia: Dynamika Procesów, Inteligetne Urządzenia Wykonawcze, Systemy Transmisji i Ochrona Danych, Symulacja Układów Sterowania. Mgr inż. Michał Frątczak prowadzi zajęcia: Dynamika Procesów, Symulacja Układów Sterowania, Sterowanie Systemami Biologicznymi. ",
           "imagePath": "",
           "type": 5
         },
@@ -833,7 +913,7 @@
           "id": "235",
           "name": "Gabinet",
           "owner": "prof. dr hab. inż. Mieczysław Metzger",
-          "description": "kierownik zakładu, Instytut Automatyki, Zakład Urządzeń i Układów Automatyki",
+          "description": "kierownik zakładu, Instytut Automatyki, Zakład Urządzeń i Układów Automatyki - Profesor zwyczajny, Kierownik Zakładu Urządzeń i Układów Automatyki; Zastępca Dyrektora Instytutu Automatyki d/s Nauki. Obszar zainteresowań badawczych: automatyka przemysłowa, informatyka przemysłowa, biotechnologia przemysłowa. Prowadzi zajęcia: Inteligetne Urządzenia Wykonawcze, Informatyka, Symulacja Układów Sterowania, Urządzenia Automatyki, Dynamika Procesów, Programowanie obliczeń komputerowych",
           "imagePath": "",
           "type": 5
         },
@@ -849,7 +929,7 @@
           "id": "237",
           "name": "Gabinet",
           "owner": "dr inż. Tomasz Kłopot, mgr inż. Witold Kłopot",
-          "description": "Instytut Automatyki, Zakład Urządzeń i Układów Automatyki",
+          "description": "Instytut Automatyki, Zakład Urządzeń i Układów Automatyki - dr inż. Tomasz Kłopot to adiunkt, w którego obszarze zainteresowań znajdują się: algorytmy regulacji (w szczególności regulacja predykcyjna), sieci przemysłowe, przemysłowe sterowniki programowalne oraz systemy SCADA. Prowadzi zajęcia: Integracja Rozproszonych Systemów Automatyki i Informatyki, Integracja Systemów Automatyki, Inteligetne Urządzenia Wykonawcze, Systemy Transmisji i Ochrona Danych, Sterowniki i Sieci Przemyslowe. Mgr inż. Witold Kłopot jest doktorantem.",
           "imagePath": "",
           "type": 5
         },
@@ -857,7 +937,7 @@
           "id": "238",
           "name": "Rockwell Automation Laboratorium",
           "owner": "",
-          "description": "",
+          "description": "Nowoczesne laboratorium, przeznaczone do prowadzenia zajęć dydaktycznych, ma w swoim założeniu przybliżać studentom rozwiązania praktyczne stosowane na co dzień w przemyśle.",
           "imagePath": "",
           "type": 2
         },
@@ -865,7 +945,7 @@
           "id": "239",
           "name": "Pracownia techniczna",
           "owner": "Klaudiusz Szołtys",
-          "description": "Instytut Automatyki, Zakład Urządzeń i Układów Automatyki",
+          "description": "Instytut Automatyki, Zakład Urządzeń i Układów Automatyki - Klaudiusz Szołtys jes pracownikiem  inżynieryjno-technicznym oraz mechanikiem. Telefon kontaktowy: 32 237 2331.",
           "imagePath": "",
           "type": 5
         },
@@ -873,7 +953,7 @@
           "id": "240",
           "name": "Toaleta damska",
           "owner": "",
-          "description": "",
+          "description": "brak kolejek, stosunkowo nowa infrastruktura",
           "imagePath": "",
           "type": 4
         },
@@ -881,7 +961,7 @@
           "id": "241",
           "name": "Toaleta męska",
           "owner": "",
-          "description": "",
+          "description": "brak kolejek, stosunkowo nowa infrastruktura",
           "imagePath": "",
           "type": 4
         }

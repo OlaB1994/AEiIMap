@@ -170,18 +170,20 @@ public class InfoDialogFragment extends DialogFragment {
 
     private int getDrawableId(int type) {
         switch (type) {
-            case 1:
+            case DataParser.TYP_AULA:
                 return R.drawable.selector_button_blue;
-            case 2:
+            case DataParser.TYP_LABORATORIUM:
                 return R.drawable.selector_button_green;
-            case 3:
+            case DataParser.TYP_SALA_CWICZEN:
                 return R.drawable.selector_button_orange;
-            case 4:
+            case DataParser.TYP_TOALETA:
                 return R.drawable.selector_button_yellow;
-            case 5:
+            case DataParser.TYP_POMIESZCZENIA_PRACOWNIKOW:
                 return R.drawable.selector_button_pink;
-            case 6:
+            case DataParser.TYP_POMIESZCZENIA_UZYTKOWE:
                 return R.drawable.selector_button_turquoise;
+            case DataParser.TYP_UNDEFINED:
+                return R.drawable.selector_button_red;
         }
         return R.drawable.selector_button_purple;
     }

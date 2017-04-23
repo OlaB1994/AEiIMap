@@ -17,6 +17,14 @@ import java.lang.ref.WeakReference;
 
 public class DataParser {
 
+    public static final int TYP_AULA = 1;
+    public static final int TYP_LABORATORIUM = 2;
+    public static final int TYP_SALA_CWICZEN = 3;
+    public static final int TYP_TOALETA = 4;
+    public static final int TYP_POMIESZCZENIA_PRACOWNIKOW = 5;
+    public static final int TYP_POMIESZCZENIA_UZYTKOWE = 6;
+    public static final int TYP_UNDEFINED = 7;
+
     private static String JSON_FILE_NAME = "map.json";
     private static DataParser instance = null;
     private Map map;
