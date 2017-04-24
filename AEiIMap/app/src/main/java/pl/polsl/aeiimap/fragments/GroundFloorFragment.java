@@ -13,7 +13,6 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 import pl.polsl.aeiimap.R;
 import pl.polsl.aeiimap.dialogs.InfoDialogFragment;
-import pl.polsl.aeiimap.model.DataParser;
 import pl.polsl.aeiimap.views.ZoomableLinearLayout;
 
 /**
@@ -171,7 +170,7 @@ public class GroundFloorFragment extends Fragment {
 
     @OnClick(R.id.fragment_ground_floor_skrypty)
     public void onSkrypty() {
-        InfoDialogFragment.newInstance(getContext(), GROUND_FLOOR, 1010).show(getActivity().getFragmentManager(),
+        InfoDialogFragment.newInstance(getContext(), GROUND_FLOOR, 1012).show(getActivity().getFragmentManager(),
                 InfoDialogFragment.class.getName());
     }
 
@@ -182,7 +181,7 @@ public class GroundFloorFragment extends Fragment {
     }
     @OnClick(R.id.fragment_ground_floor_szatnia)
     public void onSzatnia() {
-        InfoDialogFragment.newInstance(getContext(), GROUND_FLOOR, 1012).show(getActivity().getFragmentManager(),
+        InfoDialogFragment.newInstance(getContext(), GROUND_FLOOR, 1010).show(getActivity().getFragmentManager(),
                 InfoDialogFragment.class.getName());
     }
 
