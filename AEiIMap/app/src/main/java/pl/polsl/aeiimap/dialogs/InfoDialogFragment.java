@@ -116,8 +116,7 @@ public class InfoDialogFragment extends DialogFragment {
         titleTv.setText(data.getName() + " - " + data.getId());
         ownerTv.setText(data.getOwner());
         okBtn.setBackground(ContextCompat.getDrawable(ctx, getDrawableId(data.getType())));
-        // TODO: uncomment when model is changed pahts = data.getImagePaths();
-        mockData();
+        paths = data.getImagePath();
         counterMax = paths.size();
         handlePhotos();
     }
@@ -162,7 +161,7 @@ public class InfoDialogFragment extends DialogFragment {
     private Bitmap getBitmapFromAssets(String fileName) throws IOException {
         AssetManager assetManager = ctx.getAssets();
 
-        InputStream istr = assetManager.open("map/" + fileName);
+        InputStream istr = assetManager.open("map/" + fileName + ".jpg");
         Bitmap bitmap = BitmapFactory.decodeStream(istr);
 
         return bitmap;

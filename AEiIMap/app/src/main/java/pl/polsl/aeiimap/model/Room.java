@@ -3,6 +3,8 @@ package pl.polsl.aeiimap.model;
 import android.os.Parcel;
 import android.os.Parcelable;
 
+import java.util.ArrayList;
+
 /**
  * Created by aleksandrabienioszek on 02.03.2017.
  */
@@ -13,19 +15,20 @@ public class Room implements Parcelable {
     private String name;
     private String owner;
     private String description;
-    private String imagePath;
+    private ArrayList<String> imagePath;
     private int type;
 
     public Room() {
 
     }
 
+
     protected Room(Parcel in) {
         id = in.readString();
         name = in.readString();
         owner = in.readString();
         description = in.readString();
-        imagePath = in.readString();
+        imagePath = in.createStringArrayList();
         type = in.readInt();
     }
 
@@ -40,21 +43,6 @@ public class Room implements Parcelable {
             return new Room[size];
         }
     };
-
-    @Override
-    public int describeContents() {
-        return 0;
-    }
-
-    @Override
-    public void writeToParcel(Parcel parcel, int i) {
-        parcel.writeString(id);
-        parcel.writeString(name);
-        parcel.writeString(owner);
-        parcel.writeString(description);
-        parcel.writeString(imagePath);
-        parcel.writeInt(type);
-    }
 
     public String getId() {
         return id;
@@ -88,13 +76,6 @@ public class Room implements Parcelable {
         this.description = description;
     }
 
-    public String getImagePath() {
-        return imagePath;
-    }
-
-    public void setImagePath(String imagePath) {
-        this.imagePath = imagePath;
-    }
 
     public int getType() {
         return type;
@@ -102,5 +83,28 @@ public class Room implements Parcelable {
 
     public void setType(int type) {
         this.type = type;
+    }
+
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+
+    @Override
+    public void writeToParcel(Parcel dest, int flags) {
+        dest.writeString(id);
+        dest.writeString(name);
+        dest.writeString(owner);
+        dest.writeString(description);
+        dest.writeStringList(imagePath);
+        dest.writeInt(type);
+    }
+
+    public ArrayList<String> getImagePath() {
+        return imagePath;
+    }
+
+    public void setImagePath(ArrayList<String> imagePath) {
+        this.imagePath = imagePath;
     }
 }

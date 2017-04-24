@@ -43,7 +43,8 @@
             <ImageView
                 android:id="@+id/dialog_fragment_iv"
                 android:layout_width="@dimen/picture_width"
-                android:layout_height="@dimen/picture_height"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:background="@android:color/transparent"
                 android:scaleType="fitCenter" />
 
