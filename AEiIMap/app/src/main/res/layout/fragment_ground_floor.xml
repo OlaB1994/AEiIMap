@@ -123,13 +123,14 @@
                                 <pl.polsl.aeiimap.views.LightTextButton
                                     android:layout_width="@dimen/plan_dimen_horizontal_hall"
                                     android:layout_height="match_parent"
-                                    android:background="@drawable/selector_button_turquoise"
+                                    android:background="@drawable/selector_button_purple"
                                     android:textSize="@dimen/button_text_size" />
 
                                 <pl.polsl.aeiimap.views.LightTextButton
+                                    android:id="@+id/lightTextButton2"
                                     android:layout_width="@dimen/plan_dimen_horizontal_lift"
                                     android:layout_height="match_parent"
-                                    android:background="@drawable/selector_button_turquoise"
+                                    android:background="@drawable/selector_button_purple"
                                     android:textSize="@dimen/button_text_size" />
 
                                 <LinearLayout
@@ -235,7 +236,7 @@
                     <pl.polsl.aeiimap.views.LightTextButton
                         android:layout_width="@dimen/plan_dimen_horizontal_lift"
                         android:layout_height="match_parent"
-                        android:background="@drawable/selector_button_turquoise"
+                        android:background="@drawable/selector_button_purple"
                         android:textSize="@dimen/button_text_size" />
 
                     <pl.polsl.aeiimap.views.LightTextButton
@@ -245,9 +246,10 @@
                         android:textSize="@dimen/button_text_size" />
 
                     <pl.polsl.aeiimap.views.LightTextButton
+                        android:id="@+id/lightTextButton"
                         android:layout_width="@dimen/plan_dimen_horizontal_hall"
                         android:layout_height="match_parent"
-                        android:background="@drawable/selector_button_turquoise"
+                        android:background="@drawable/selector_button_purple"
                         android:textSize="@dimen/button_text_size" />
 
                     <pl.polsl.aeiimap.views.LightTextButton
@@ -434,7 +436,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:background="@drawable/selector_button_turquoise"
+                        android:background="@drawable/selector_button_purple"
                         android:textSize="@dimen/button_text_size" />
 
                     <pl.polsl.aeiimap.views.LightTextButton
@@ -442,7 +444,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:background="@drawable/selector_button_turquoise"
+                        android:background="@drawable/selector_button_purple"
                         android:textSize="@dimen/button_text_size" />
 
                     <pl.polsl.aeiimap.views.LightTextButton

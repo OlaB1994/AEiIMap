@@ -5,12 +5,12 @@
 
     <LinearLayout
         style="@style/MatchParent"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
         android:gravity="center"
         android:orientation="horizontal"
-        android:weightSum="2">
+        android:weightSum="2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
 
         <LinearLayout
             style="@style/MapBgHorizontal"
@@ -85,13 +85,13 @@
                                 <pl.polsl.aeiimap.views.LightTextButton
                                     android:layout_width="@dimen/plan_dimen_horizontal_hall"
                                     android:layout_height="match_parent"
-                                    android:background="@drawable/selector_button_turquoise"
+                                    android:background="@drawable/selector_button_purple"
                                     android:textSize="@dimen/button_text_size" />
 
                                 <pl.polsl.aeiimap.views.LightTextButton
                                     android:layout_width="@dimen/plan_dimen_horizontal_lift"
                                     android:layout_height="match_parent"
-                                    android:background="@drawable/selector_button_turquoise"
+                                    android:background="@drawable/v"
                                     android:textSize="@dimen/button_text_size" />
 
                                 <LinearLayout
@@ -212,7 +212,7 @@
                     <pl.polsl.aeiimap.views.LightTextButton
                         android:layout_width="@dimen/plan_dimen_horizontal_lift"
                         android:layout_height="match_parent"
-                        android:background="@drawable/selector_button_turquoise"
+                        android:background="@drawable/selector_button_purple"
                         android:textSize="@dimen/button_text_size" />
 
                     <pl.polsl.aeiimap.views.LightTextButton
@@ -459,7 +459,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:background="@drawable/selector_button_turquoise"
+                        android:background="@drawable/selector_button_purple"
                         android:textSize="@dimen/button_text_size" />
 
                     <pl.polsl.aeiimap.views.LightTextButton
@@ -467,7 +467,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:background="@drawable/selector_button_turquoise"
+                        android:background="@drawable/selector_button_purple"
                         android:textSize="@dimen/button_text_size" />
 
                     <pl.polsl.aeiimap.views.LightTextButton
