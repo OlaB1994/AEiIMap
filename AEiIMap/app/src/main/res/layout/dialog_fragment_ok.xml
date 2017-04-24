@@ -43,23 +43,20 @@
             <ImageView
                 android:id="@+id/dialog_fragment_iv"
                 android:layout_width="@dimen/picture_width"
-                android:layout_height="wrap_content"
+                android:layout_height="@dimen/picture_height"
                 android:layout_gravity="center"
+                android:layout_marginRight="@dimen/normal_margin"
                 android:background="@android:color/transparent"
                 android:scaleType="fitCenter" />
 
-            <ScrollView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
             <TextView
                 android:id="@+id/dialog_fragment_room_information"
-                android:layout_width="@dimen/picture_width"
-                android:layout_height="@dimen/picture_height"
+                android:layout_width="@dimen/text_max_width"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:text="Lorem ipsum dolor sit amet"
                 android:textSize="@dimen/info_text_size" />
-            </ScrollView>
         </LinearLayout>
 
         <pl.polsl.aeiimap.views.LightTextButton

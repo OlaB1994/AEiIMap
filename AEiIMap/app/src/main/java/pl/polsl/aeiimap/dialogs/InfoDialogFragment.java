@@ -4,7 +4,6 @@ import android.app.Dialog;
 import android.app.DialogFragment;
 import android.content.Context;
 import android.content.DialogInterface;
-import android.content.res.AssetManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Color;
@@ -21,6 +20,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
@@ -117,8 +117,10 @@ public class InfoDialogFragment extends DialogFragment {
         ownerTv.setText(data.getOwner());
         okBtn.setBackground(ContextCompat.getDrawable(ctx, getDrawableId(data.getType())));
         paths = data.getImagePath();
-        counterMax = paths.size();
-        handlePhotos();
+        if (paths != null)
+            counterMax = paths.size();
+        if (counterMax > 0)
+            handlePhotos();
     }
 
     private void mockData() {
@@ -130,7 +132,7 @@ public class InfoDialogFragment extends DialogFragment {
 
     private void handlePhotos() {
         updatePhoto();
-       repeatTask();
+        repeatTask();
     }
 
     private void repeatTask() {
@@ -159,12 +161,32 @@ public class InfoDialogFragment extends DialogFragment {
     }
 
     private Bitmap getBitmapFromAssets(String fileName) throws IOException {
-        AssetManager assetManager = ctx.getAssets();
+        try {
+            InputStream f = ctx.getAssets().open("map/" + fileName + ".jpg");
+            // Decode image size
+            BitmapFactory.Options o = new BitmapFactory.Options();
+            o.inJustDecodeBounds = true;
+            BitmapFactory.decodeStream(f, null, o);
 
-        InputStream istr = assetManager.open("map/" + fileName + ".jpg");
-        Bitmap bitmap = BitmapFactory.decodeStream(istr);
+            // The new size we want to scale to
+            final int REQUIRED_SIZE = 300;
 
-        return bitmap;
+            // Find the correct scale value. It should be the power of 2.
+            int scale = 1;
+            while (o.outWidth / scale / 2 >= REQUIRED_SIZE &&
+                    o.outHeight / scale / 2 >= REQUIRED_SIZE) {
+                scale *= 2;
+            }
+
+            // Decode with inSampleSize
+            BitmapFactory.Options o2 = new BitmapFactory.Options();
+            o2.inSampleSize = scale;
+            return BitmapFactory.decodeStream(f, null, o2);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+        return null;
+
     }
 
     private int getDrawableId(int type) {
@@ -182,7 +204,7 @@ public class InfoDialogFragment extends DialogFragment {
             case DataParser.TYP_POMIESZCZENIA_UZYTKOWE:
                 return R.drawable.selector_button_turquoise;
             case DataParser.TYP_UNDEFINED:
-                return R.drawable.selector_button_red;
+                return R.drawable.selector_button_turquoise;
         }
         return R.drawable.selector_button_purple;
     }

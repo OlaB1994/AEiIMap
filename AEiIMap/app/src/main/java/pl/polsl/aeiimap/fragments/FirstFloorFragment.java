@@ -224,12 +224,6 @@ public class FirstFloorFragment extends Fragment {
                 InfoDialogFragment.class.getName());
     }
 
-    @OnClick(R.id.fragment_first_floor_132)
-    public void on132a() {
-        InfoDialogFragment.newInstance(getContext(), FIRST_FLOOR, 132).show(getActivity().getFragmentManager(),
-                InfoDialogFragment.class.getName());
-    }
-
     @OnClick(R.id.fragment_first_floor_bufet)
     public void onBufet() {
         InfoDialogFragment.newInstance(getContext(), FIRST_FLOOR, 1006).show(getActivity().getFragmentManager(),
