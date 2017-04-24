@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<pl.polsl.aeiimap.views.ZoomableLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<pl.polsl.aeiimap.views.ZoomableRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/fragment_second_floor_main_ll"
     style="@style/MatchParent">
 
@@ -149,11 +149,12 @@
 
 
                             <pl.polsl.aeiimap.views.LightTextButton
+                                android:id="@+id/fragment_second_floor_aula_f"
                                 android:layout_width="@dimen/plan_dimen_horizontal_room_and_hall"
                                 android:layout_height="match_parent"
                                 android:layout_marginLeft="@dimen/plan_dimen_horizontal_hall"
                                 android:background="@drawable/selector_button_blue"
-                                android:text="222"
+                                android:text="Aula F"
                                 android:textSize="@dimen/button_text_size" />
 
 
@@ -199,7 +200,7 @@
                         android:layout_width="@dimen/plan_dimen_horizontal_lift"
                         android:layout_height="match_parent"
                         android:background="@drawable/selector_button_yellow"
-                        android:text="201-202"
+                        android:text="WC"
                         android:textSize="@dimen/button_text_size" />
 
                     <pl.polsl.aeiimap.views.LightTextButton
@@ -578,5 +579,15 @@
         </LinearLayout>
     </LinearLayout>
 
+    <pl.polsl.aeiimap.views.LightTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:gravity="right|bottom"
+        android:padding="@dimen/normal_margin"
+        android:text="PIETRO II"
+        android:textSize="30sp" />
 
-</pl.polsl.aeiimap.views.ZoomableLinearLayout>
+
+</pl.polsl.aeiimap.views.ZoomableRelativeLayout>

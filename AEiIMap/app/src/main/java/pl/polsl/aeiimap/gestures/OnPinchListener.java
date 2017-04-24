@@ -2,7 +2,7 @@ package pl.polsl.aeiimap.gestures;
 
 import android.view.ScaleGestureDetector;
 
-import pl.polsl.aeiimap.views.ZoomableLinearLayout;
+import pl.polsl.aeiimap.views.ZoomableRelativeLayout;
 
 /**
  * Created by aleksandrabienioszek on 28.02.2017.
@@ -10,13 +10,13 @@ import pl.polsl.aeiimap.views.ZoomableLinearLayout;
 
 public class OnPinchListener extends ScaleGestureDetector.SimpleOnScaleGestureListener {
 
-    private final ZoomableLinearLayout zoomableRelativeLayout;
+    private final ZoomableRelativeLayout zoomableRelativeLayout;
     float startingSpan;
     float endSpan;
     float startFocusX;
     float startFocusY;
 
-    public OnPinchListener(ZoomableLinearLayout relativeLayout){
+    public OnPinchListener(ZoomableRelativeLayout relativeLayout) {
         this.zoomableRelativeLayout = relativeLayout;
     }
 
@@ -26,7 +26,6 @@ public class OnPinchListener extends ScaleGestureDetector.SimpleOnScaleGestureLi
         startFocusY = detector.getFocusY();
         return true;
     }
-
 
 
 }

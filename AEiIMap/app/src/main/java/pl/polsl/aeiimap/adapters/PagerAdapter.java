@@ -30,13 +30,13 @@ public class PagerAdapter extends FragmentStatePagerAdapter {
     public Fragment getItem(int i) {
         switch (i) {
             case FIRST_FLOOR:
-                currentFragment =  new FirstFloorFragment();
+                currentFragment = new FirstFloorFragment();
                 break;
             case SECOND_FLOOR:
-                currentFragment =  new SecondFloorFragment();
+                currentFragment = new SecondFloorFragment();
                 break;
             default:
-                currentFragment =  new GroundFloorFragment();
+                currentFragment = new GroundFloorFragment();
                 break;
         }
         return currentFragment;

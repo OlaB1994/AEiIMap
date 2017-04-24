@@ -187,6 +187,13 @@ public class SecondFloorFragment extends Fragment {
                 InfoDialogFragment.class.getName());
     }
 
+    @OnClick(R.id.fragment_second_floor_aula_f)
+    public void onAulaF() {
+        InfoDialogFragment.newInstance(getContext(), SECOND_FLOOR, 222).show(getActivity().getFragmentManager(),
+                InfoDialogFragment.class.getName());
+
+    }
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater,
