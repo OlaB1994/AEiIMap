@@ -23,6 +23,7 @@ public class FirstFloorFragment extends Fragment {
     private final int FIRST_FLOOR = 1;
 
     @BindView(R.id.fragment_first_floor_main_ll)
+    final
     ZoomableRelativeLayout zoomableRelativeLayout;
 
     @OnClick(R.id.fragment_first_floor_101)
@@ -241,11 +242,13 @@ public class FirstFloorFragment extends Fragment {
         InfoDialogFragment.newInstance(getContext(), FIRST_FLOOR, 1002).show(getActivity().getFragmentManager(),
                 InfoDialogFragment.class.getName());
     }
+
     @OnClick(R.id.fragment_first_floor_aula_c)
     public void onAulaC() {
         InfoDialogFragment.newInstance(getContext(), FIRST_FLOOR, 1003).show(getActivity().getFragmentManager(),
                 InfoDialogFragment.class.getName());
     }
+
     @OnClick(R.id.fragment_first_floor_work_wc)
     public void onWorkerWC() {
         InfoDialogFragment.newInstance(getContext(), FIRST_FLOOR, 1007).show(getActivity().getFragmentManager(),

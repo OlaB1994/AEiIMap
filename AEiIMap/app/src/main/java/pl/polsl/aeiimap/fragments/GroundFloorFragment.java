@@ -23,6 +23,7 @@ public class GroundFloorFragment extends Fragment {
     private final int GROUND_FLOOR = 0;
 
     @BindView(R.id.fragment_ground_floor_main_ll)
+    final
     ZoomableRelativeLayout zoomableRelativeLayout;
 
     @OnClick(R.id.fragment_ground_floor_1)
@@ -150,6 +151,7 @@ public class GroundFloorFragment extends Fragment {
         InfoDialogFragment.newInstance(getContext(), GROUND_FLOOR, 22).show(getActivity().getFragmentManager(),
                 InfoDialogFragment.class.getName());
     }
+
     @OnClick(R.id.fragment_ground_floor_23)
     public void on23() {
         InfoDialogFragment.newInstance(getContext(), GROUND_FLOOR, 23).show(getActivity().getFragmentManager(),
@@ -193,6 +195,7 @@ public class GroundFloorFragment extends Fragment {
         InfoDialogFragment.newInstance(getContext(), GROUND_FLOOR, 1011).show(getActivity().getFragmentManager(),
                 InfoDialogFragment.class.getName());
     }
+
     @OnClick(R.id.fragment_ground_floor_szatnia)
     public void onSzatnia() {
         InfoDialogFragment.newInstance(getContext(), GROUND_FLOOR, 1010).show(getActivity().getFragmentManager(),
@@ -211,6 +214,7 @@ public class GroundFloorFragment extends Fragment {
         InfoDialogFragment.newInstance(getContext(), GROUND_FLOOR, 1002).show(getActivity().getFragmentManager(),
                 InfoDialogFragment.class.getName());
     }
+
     @OnClick(R.id.fragment_ground_floor_aula_c)
     public void onAulaC() {
         InfoDialogFragment.newInstance(getContext(), GROUND_FLOOR, 1003).show(getActivity().getFragmentManager(),

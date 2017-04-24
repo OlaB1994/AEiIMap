@@ -193,7 +193,8 @@ public class SecondFloorFragment extends Fragment {
                 InfoDialogFragment.class.getName());
 
     }
-        @Nullable
+
+    @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater,
                              @Nullable ViewGroup container,

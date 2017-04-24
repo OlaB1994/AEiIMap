@@ -1,7 +1,6 @@
 package pl.polsl.aeiimap.model;
 
 import android.content.Context;
-import android.content.res.Resources;
 
 import com.google.gson.Gson;
 import com.google.gson.stream.JsonReader;
@@ -25,14 +24,14 @@ public class DataParser {
     public static final int TYP_POMIESZCZENIA_UZYTKOWE = 6;
     public static final int TYP_UNDEFINED = 7;
 
-    private static String JSON_FILE_NAME = "map.json";
+    private static final String JSON_FILE_NAME = "map.json";
     private static DataParser instance = null;
     private Map map;
 
     private WeakReference<Context> contextWeakReference;
 
     public static DataParser getInstance() {
-        if ( instance == null ) {
+        if (instance == null) {
             instance = new DataParser();
         }
         return instance;
@@ -46,7 +45,7 @@ public class DataParser {
         this.map = map;
     }
 
-    public void init(Context context){
+    public void init(Context context) {
         contextWeakReference = new WeakReference<>(context);
         try {
             setMapFromJson();

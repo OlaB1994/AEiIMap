@@ -13,6 +13,7 @@ import pl.polsl.aeiimap.model.DataParser;
 public class MainActivity extends AppCompatActivity {
 
     @BindView(R.id.activity_main_view_pager)
+    final
     VerticalViewPager viewPager;
 
     private int currentFloor = PagerAdapter.GROUND_FLOOR;

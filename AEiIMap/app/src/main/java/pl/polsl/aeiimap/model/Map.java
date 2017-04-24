@@ -9,12 +9,6 @@ import android.os.Parcelable;
 
 public class Map implements Parcelable {
 
-    private Floor[] floors = new Floor[10];
-
-    protected Map(Parcel in) {
-        floors = in.createTypedArray(Floor.CREATOR);
-    }
-
     public static final Creator<Map> CREATOR = new Creator<Map>() {
         @Override
         public Map createFromParcel(Parcel in) {
@@ -26,6 +20,11 @@ public class Map implements Parcelable {
             return new Map[size];
         }
     };
+    private Floor[] floors = new Floor[10];
+
+    protected Map(Parcel in) {
+        floors = in.createTypedArray(Floor.CREATOR);
+    }
 
     @Override
     public int describeContents() {

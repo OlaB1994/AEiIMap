@@ -11,14 +11,6 @@ import java.util.ArrayList;
 
 public class Floor implements Parcelable {
 
-    private int id;
-    private ArrayList<Room> rooms = new ArrayList<>();
-
-    protected Floor(Parcel in) {
-        id = in.readInt();
-        rooms = in.createTypedArrayList(Room.CREATOR);
-    }
-
     public static final Creator<Floor> CREATOR = new Creator<Floor>() {
         @Override
         public Floor createFromParcel(Parcel in) {
@@ -30,6 +22,13 @@ public class Floor implements Parcelable {
             return new Floor[size];
         }
     };
+    private int id;
+    private ArrayList<Room> rooms = new ArrayList<>();
+
+    protected Floor(Parcel in) {
+        id = in.readInt();
+        rooms = in.createTypedArrayList(Room.CREATOR);
+    }
 
     @Override
     public int describeContents() {

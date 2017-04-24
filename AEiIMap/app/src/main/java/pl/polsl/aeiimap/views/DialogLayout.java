@@ -18,10 +18,10 @@ import timber.log.Timber;
  */
 public class DialogLayout extends RelativeLayout {
 
-    Context context;
-    Animation inAnimation;
-    Animation outAnimation;
-    DialogLayout dialogLayout;
+    private Context context;
+    private Animation inAnimation;
+    private Animation outAnimation;
+    private DialogLayout dialogLayout;
 
     public DialogLayout(Context context) {
         super(context);

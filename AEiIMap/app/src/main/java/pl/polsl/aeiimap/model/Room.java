@@ -11,27 +11,6 @@ import java.util.ArrayList;
 
 public class Room implements Parcelable {
 
-    private String id;
-    private String name;
-    private String owner;
-    private String description;
-    private ArrayList<String> imagePath;
-    private int type;
-
-    public Room() {
-
-    }
-
-
-    protected Room(Parcel in) {
-        id = in.readString();
-        name = in.readString();
-        owner = in.readString();
-        description = in.readString();
-        imagePath = in.createStringArrayList();
-        type = in.readInt();
-    }
-
     public static final Creator<Room> CREATOR = new Creator<Room>() {
         @Override
         public Room createFromParcel(Parcel in) {
@@ -43,6 +22,26 @@ public class Room implements Parcelable {
             return new Room[size];
         }
     };
+    private String id;
+    private String name;
+    private String owner;
+    private String description;
+    private ArrayList<String> imagePath;
+    private int type;
+
+
+    public Room() {
+
+    }
+
+    protected Room(Parcel in) {
+        id = in.readString();
+        name = in.readString();
+        owner = in.readString();
+        description = in.readString();
+        imagePath = in.createStringArrayList();
+        type = in.readInt();
+    }
 
     public String getId() {
         return id;

@@ -16,7 +16,7 @@ public class OnPinchListener extends ScaleGestureDetector.SimpleOnScaleGestureLi
     float startFocusX;
     float startFocusY;
 
-    public OnPinchListener(ZoomableRelativeLayout relativeLayout){
+    public OnPinchListener(ZoomableRelativeLayout relativeLayout) {
         this.zoomableRelativeLayout = relativeLayout;
     }
 
@@ -26,7 +26,6 @@ public class OnPinchListener extends ScaleGestureDetector.SimpleOnScaleGestureLi
         startFocusY = detector.getFocusY();
         return true;
     }
-
 
 
 }

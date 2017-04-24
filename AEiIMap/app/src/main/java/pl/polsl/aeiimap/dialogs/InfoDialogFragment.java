@@ -39,26 +39,30 @@ import pl.polsl.aeiimap.views.DialogLayout;
 public class InfoDialogFragment extends DialogFragment {
 
     private static final long PHOTO_CHANGE_DELAY_TIME = 5000;
+    @BindView(R.id.dialog_fragment_info_layout)
+    final
+    DialogLayout layout;
+    @BindView(R.id.dialog_fragment_room_information)
+    final
+    TextView descriptionTv;
+    @BindView(R.id.dialog_fragment_info_title_tv)
+    final
+    TextView titleTv;
+    @BindView(R.id.dialog_fragment_info_owner_tv)
+    final
+    TextView ownerTv;
+    @BindView(R.id.dialog_fragment_info_ok_btn)
+    final
+    Button okBtn;
+    @BindView(R.id.dialog_fragment_iv)
+    final
+    ImageView pictureIv;
     private Context ctx;
     private int floor;
     private String room;
     private int counter = 0;
     private int counterMax;
     private ArrayList<String> paths;
-
-    @BindView(R.id.dialog_fragment_info_layout)
-    DialogLayout layout;
-
-    @BindView(R.id.dialog_fragment_room_information)
-    TextView descriptionTv;
-    @BindView(R.id.dialog_fragment_info_title_tv)
-    TextView titleTv;
-    @BindView(R.id.dialog_fragment_info_owner_tv)
-    TextView ownerTv;
-    @BindView(R.id.dialog_fragment_info_ok_btn)
-    Button okBtn;
-    @BindView(R.id.dialog_fragment_iv)
-    ImageView pictureIv;
 
     public static InfoDialogFragment newInstance(Context ctx, int floor, int room) {
         InfoDialogFragment dialog = new InfoDialogFragment();
@@ -113,7 +117,7 @@ public class InfoDialogFragment extends DialogFragment {
         DataParser dataParser = DataParser.getInstance();
         Room data = dataParser.getMap().getFloors()[floor].getRoomById(room);
         descriptionTv.setText(data.getDescription());
-        titleTv.setText(data.getName() + " - " + data.getId());
+        titleTv.setText(data.getName());
         ownerTv.setText(data.getOwner());
         okBtn.setBackground(ContextCompat.getDrawable(ctx, getDrawableId(data.getType())));
         paths = data.getImagePath();
@@ -123,12 +127,6 @@ public class InfoDialogFragment extends DialogFragment {
             handlePhotos();
     }
 
-    private void mockData() {
-        paths = new ArrayList<>();
-        paths.add("test.png");
-        paths.add("test2.png");
-
-    }
 
     private void handlePhotos() {
         updatePhoto();
@@ -213,11 +211,6 @@ public class InfoDialogFragment extends DialogFragment {
     public void onPause() {
         super.onPause();
         dismiss();
-    }
-
-    @Override
-    public void dismiss() {
-        super.dismiss();
     }
 
     @Override

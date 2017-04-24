@@ -8,7 +8,7 @@ import java.util.Hashtable;
 /**
  * Created by abienioszek on 12.07.2016.
  */
-public class TypeFace {
+class TypeFace {
 
     private static final Hashtable<String, Typeface> cache = new Hashtable<String, Typeface>();
 

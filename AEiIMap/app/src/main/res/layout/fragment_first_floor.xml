@@ -650,14 +650,15 @@
 
         </LinearLayout>
     </LinearLayout>
+
     <pl.polsl.aeiimap.views.LightTextView
         android:layout_width="wrap_content"
-        android:text="PIETRO I"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
         android:gravity="right|bottom"
         android:padding="@dimen/normal_margin"
-        android:textSize="30sp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"
-        android:layout_height="wrap_content" />
+        android:text="PIETRO I"
+        android:textSize="30sp" />
 
 </pl.polsl.aeiimap.views.ZoomableRelativeLayout>
