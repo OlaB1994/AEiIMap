@@ -23,7 +23,6 @@ public class FirstFloorFragment extends Fragment {
     private final int FIRST_FLOOR = 1;
 
     @BindView(R.id.fragment_first_floor_main_ll)
-    final
     ZoomableRelativeLayout zoomableRelativeLayout;
 
     @OnClick(R.id.fragment_first_floor_101)

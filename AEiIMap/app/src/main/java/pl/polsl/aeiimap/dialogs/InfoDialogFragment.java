@@ -40,22 +40,16 @@ public class InfoDialogFragment extends DialogFragment {
 
     private static final long PHOTO_CHANGE_DELAY_TIME = 5000;
     @BindView(R.id.dialog_fragment_info_layout)
-    final
     DialogLayout layout;
     @BindView(R.id.dialog_fragment_room_information)
-    final
     TextView descriptionTv;
     @BindView(R.id.dialog_fragment_info_title_tv)
-    final
     TextView titleTv;
     @BindView(R.id.dialog_fragment_info_owner_tv)
-    final
     TextView ownerTv;
     @BindView(R.id.dialog_fragment_info_ok_btn)
-    final
     Button okBtn;
     @BindView(R.id.dialog_fragment_iv)
-    final
     ImageView pictureIv;
     private Context ctx;
     private int floor;

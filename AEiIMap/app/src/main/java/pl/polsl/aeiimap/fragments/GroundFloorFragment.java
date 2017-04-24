@@ -23,7 +23,6 @@ public class GroundFloorFragment extends Fragment {
     private final int GROUND_FLOOR = 0;
 
     @BindView(R.id.fragment_ground_floor_main_ll)
-    final
     ZoomableRelativeLayout zoomableRelativeLayout;
 
     @OnClick(R.id.fragment_ground_floor_1)
