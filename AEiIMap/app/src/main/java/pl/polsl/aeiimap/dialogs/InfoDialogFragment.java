@@ -123,12 +123,6 @@ public class InfoDialogFragment extends DialogFragment {
             handlePhotos();
     }
 
-    private void mockData() {
-        paths = new ArrayList<>();
-        paths.add("test.png");
-        paths.add("test2.png");
-
-    }
 
     private void handlePhotos() {
         updatePhoto();
