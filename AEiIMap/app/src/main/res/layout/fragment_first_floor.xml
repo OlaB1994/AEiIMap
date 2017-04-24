@@ -91,7 +91,7 @@
                                 <pl.polsl.aeiimap.views.LightTextButton
                                     android:layout_width="@dimen/plan_dimen_horizontal_lift"
                                     android:layout_height="match_parent"
-                                    android:background="@drawable/v"
+                                    android:background="@drawable/selector_button_purple"
                                     android:textSize="@dimen/button_text_size" />
 
                                 <LinearLayout
