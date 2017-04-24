@@ -226,7 +226,7 @@ public class FirstFloorFragment extends Fragment {
 
     @OnClick(R.id.fragment_first_floor_bufet)
     public void onBufet() {
-        InfoDialogFragment.newInstance(getContext(), FIRST_FLOOR, 1006).show(getActivity().getFragmentManager(),
+        InfoDialogFragment.newInstance(getContext(), FIRST_FLOOR, 1009).show(getActivity().getFragmentManager(),
                 InfoDialogFragment.class.getName());
     }
 
@@ -248,13 +248,13 @@ public class FirstFloorFragment extends Fragment {
     }
     @OnClick(R.id.fragment_first_floor_work_wc)
     public void onWorkerWC() {
-        InfoDialogFragment.newInstance(getContext(), FIRST_FLOOR, 1006).show(getActivity().getFragmentManager(),
+        InfoDialogFragment.newInstance(getContext(), FIRST_FLOOR, 1007).show(getActivity().getFragmentManager(),
                 InfoDialogFragment.class.getName());
     }
 
     @OnClick(R.id.fragment_first_floor_132)
     public void on132b() {
-        InfoDialogFragment.newInstance(getContext(), FIRST_FLOOR, 1007).show(getActivity().getFragmentManager(),
+        InfoDialogFragment.newInstance(getContext(), FIRST_FLOOR, 1008).show(getActivity().getFragmentManager(),
                 InfoDialogFragment.class.getName());
     }
 

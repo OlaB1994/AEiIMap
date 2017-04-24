@@ -162,6 +162,20 @@ public class GroundFloorFragment extends Fragment {
                 InfoDialogFragment.class.getName());
     }
 
+    @OnClick(R.id.fragment_ground_floor_25)
+    public void on25() {
+        InfoDialogFragment.newInstance(getContext(), GROUND_FLOOR, 25).show(getActivity().getFragmentManager(),
+                InfoDialogFragment.class.getName());
+    }
+
+
+    @OnClick(R.id.fragment_ground_floor_26)
+    public void on26() {
+        InfoDialogFragment.newInstance(getContext(), GROUND_FLOOR, 26).show(getActivity().getFragmentManager(),
+                InfoDialogFragment.class.getName());
+    }
+
+
     @OnClick(R.id.fragment_ground_floor_bufet)
     public void onBufet() {
         InfoDialogFragment.newInstance(getContext(), GROUND_FLOOR, 1007).show(getActivity().getFragmentManager(),
