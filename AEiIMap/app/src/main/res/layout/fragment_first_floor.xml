@@ -5,12 +5,12 @@
 
     <LinearLayout
         style="@style/MatchParent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
         android:gravity="center"
         android:orientation="horizontal"
-        android:weightSum="2"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
+        android:weightSum="2">
 
         <LinearLayout
             style="@style/MapBgHorizontal"
@@ -47,16 +47,18 @@
                                 android:id="@+id/fragment_first_floor_131a"
                                 android:layout_width="@dimen/plan_dimen_horizontal_hall"
                                 android:layout_height="match_parent"
+                                android:background="@drawable/selector_button_pink"
                                 android:text="131a"
-                                android:background="@drawable/selector_button_pink" />
+                                android:textSize="@dimen/button_text_size" />
 
                             <pl.polsl.aeiimap.views.LightTextButton
                                 android:id="@+id/fragment_first_floor_131"
                                 android:layout_width="0dp"
-                                android:text="131"
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
-                                android:background="@drawable/selector_button_green" />
+                                android:background="@drawable/selector_button_green"
+                                android:text="131"
+                                android:textSize="@dimen/button_text_size" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -83,12 +85,14 @@
                                 <pl.polsl.aeiimap.views.LightTextButton
                                     android:layout_width="@dimen/plan_dimen_horizontal_hall"
                                     android:layout_height="match_parent"
-                                    android:background="@drawable/selector_button_turquoise" />
+                                    android:background="@drawable/selector_button_turquoise"
+                                    android:textSize="@dimen/button_text_size" />
 
                                 <pl.polsl.aeiimap.views.LightTextButton
                                     android:layout_width="@dimen/plan_dimen_horizontal_lift"
                                     android:layout_height="match_parent"
-                                    android:background="@drawable/selector_button_turquoise" />
+                                    android:background="@drawable/selector_button_turquoise"
+                                    android:textSize="@dimen/button_text_size" />
 
                                 <LinearLayout
                                     android:layout_width="@dimen/plan_dimen_horizontal_hall"
@@ -102,20 +106,22 @@
                                     android:weightSum="2">
 
                                     <pl.polsl.aeiimap.views.LightTextButton
+                                        android:id="@+id/fragment_first_floor_work_wc"
                                         android:layout_width="0dp"
                                         android:layout_height="match_parent"
-                                        android:text="WC"
                                         android:layout_weight="1"
-                                        android:id="@+id/fragment_first_floor_work_wc"
-                                        android:background="@drawable/selector_button_yellow" />
+                                        android:background="@drawable/selector_button_yellow"
+                                        android:text="WC"
+                                        android:textSize="@dimen/button_text_size" />
 
                                     <pl.polsl.aeiimap.views.LightTextButton
-                                        android:layout_width="0dp"
-                                        android:text="132"
                                         android:id="@+id/fragment_first_floor_132"
+                                        android:layout_width="0dp"
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
-                                        android:background="@drawable/selector_button_yellow" />
+                                        android:background="@drawable/selector_button_yellow"
+                                        android:text="132"
+                                        android:textSize="@dimen/button_text_size" />
                                 </LinearLayout>
 
                             </LinearLayout>
@@ -139,25 +145,28 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="0dp"
                                     android:layout_weight="1"
+                                    android:background="@drawable/selector_button_pink"
                                     android:text="130"
-                                    android:background="@drawable/selector_button_pink" />
+                                    android:textSize="@dimen/button_text_size" />
 
 
                                 <pl.polsl.aeiimap.views.LightTextButton
                                     android:id="@+id/fragment_first_floor_129"
                                     android:layout_width="match_parent"
                                     android:layout_height="0dp"
-                                    android:text="129"
                                     android:layout_weight="1"
-                                    android:background="@drawable/selector_button_pink" />
+                                    android:background="@drawable/selector_button_pink"
+                                    android:text="129"
+                                    android:textSize="@dimen/button_text_size" />
 
                                 <pl.polsl.aeiimap.views.LightTextButton
                                     android:id="@+id/fragment_first_floor_128"
                                     android:layout_width="match_parent"
                                     android:layout_height="0dp"
                                     android:layout_weight="1"
+                                    android:background="@drawable/selector_button_pink"
                                     android:text="128"
-                                    android:background="@drawable/selector_button_pink" />
+                                    android:textSize="@dimen/button_text_size" />
 
 
                                 <pl.polsl.aeiimap.views.LightTextButton
@@ -165,8 +174,9 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="0dp"
                                     android:layout_weight="1"
+                                    android:background="@drawable/selector_button_pink"
                                     android:text="127"
-                                    android:background="@drawable/selector_button_pink" />
+                                    android:textSize="@dimen/button_text_size" />
 
                             </LinearLayout>
 
@@ -195,37 +205,43 @@
                         android:id="@+id/fragment_first_floor_126"
                         android:layout_width="@dimen/plan_dimen_horizontal_hall"
                         android:layout_height="match_parent"
+                        android:background="@drawable/selector_button_pink"
                         android:text="126"
-                        android:background="@drawable/selector_button_pink" />
+                        android:textSize="@dimen/button_text_size" />
 
                     <pl.polsl.aeiimap.views.LightTextButton
                         android:layout_width="@dimen/plan_dimen_horizontal_lift"
                         android:layout_height="match_parent"
-                        android:background="@drawable/selector_button_turquoise" />
+                        android:background="@drawable/selector_button_turquoise"
+                        android:textSize="@dimen/button_text_size" />
 
                     <pl.polsl.aeiimap.views.LightTextButton
                         android:layout_width="@dimen/plan_dimen_horizontal_hall"
                         android:layout_height="match_parent"
-                        android:background="@color/map_hall" />
+                        android:background="@color/map_hall"
+                        android:textSize="@dimen/button_text_size" />
 
                     <pl.polsl.aeiimap.views.LightTextButton
                         android:layout_width="@dimen/plan_dimen_horizontal_hall"
                         android:layout_height="match_parent"
-                        android:background="@drawable/selector_button_turquoise" />
+                        android:background="@drawable/selector_button_turquoise"
+                        android:textSize="@dimen/button_text_size" />
 
                     <pl.polsl.aeiimap.views.LightTextButton
                         android:id="@+id/fragment_first_floor_101"
                         android:layout_width="@dimen/plan_dimen_horizontal_lift"
                         android:layout_height="match_parent"
+                        android:background="@drawable/selector_button_yellow"
                         android:text="101"
-                        android:background="@drawable/selector_button_yellow" />
+                        android:textSize="@dimen/button_text_size" />
 
                     <pl.polsl.aeiimap.views.LightTextButton
                         android:id="@+id/fragment_first_floor_102"
                         android:layout_width="@dimen/plan_dimen_horizontal_lift"
                         android:layout_height="match_parent"
+                        android:background="@drawable/selector_button_yellow"
                         android:text="102"
-                        android:background="@drawable/selector_button_yellow" />>
+                        android:textSize="@dimen/button_text_size" />>
                 </LinearLayout>
 
                 <LinearLayout
@@ -247,16 +263,18 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="20"
-                        android:background="@color/map_hall" />
+                        android:background="@color/map_hall"
+                        android:textSize="@dimen/button_text_size" />
 
 
                     <pl.polsl.aeiimap.views.LightTextButton
+                        android:id="@+id/fragment_first_floor_bufet"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="20"
-                        android:id="@+id/fragment_first_floor_bufet"
+                        android:background="@drawable/selector_button_turquoise"
                         android:text="Bufet"
-                        android:background="@drawable/selector_button_turquoise" />
+                        android:textSize="@dimen/button_text_size" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -296,20 +314,22 @@
                                 android:paddingLeft="@dimen/plan_dimen_aula_hall">
 
                                 <pl.polsl.aeiimap.views.LightTextButton
+                                    android:id="@+id/fragment_first_floor_aula_c"
                                     android:layout_width="match_parent"
                                     android:layout_height="0dp"
                                     android:layout_weight="1"
-                                    android:id="@+id/fragment_first_floor_aula_c"
+                                    android:background="@drawable/selector_button_blue"
                                     android:text="Aula C"
-                                    android:background="@drawable/selector_button_blue" />
+                                    android:textSize="@dimen/button_text_size" />
 
                                 <pl.polsl.aeiimap.views.LightTextButton
                                     android:id="@+id/fragment_first_floor_aula_b"
                                     android:layout_width="match_parent"
                                     android:layout_height="0dp"
                                     android:layout_weight="1"
+                                    android:background="@drawable/selector_button_blue"
                                     android:text="Aula B"
-                                    android:background="@drawable/selector_button_blue" />
+                                    android:textSize="@dimen/button_text_size" />
                             </LinearLayout>
                         </LinearLayout>
 
@@ -318,8 +338,9 @@
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
                             android:layout_weight="1"
+                            android:background="@drawable/selector_button_blue"
                             android:text="Aula A"
-                            android:background="@drawable/selector_button_blue" />
+                            android:textSize="@dimen/button_text_size" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -333,14 +354,16 @@
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
                             android:layout_weight="4"
-                            android:background="@color/map_hall" />
+                            android:background="@color/map_hall"
+                            android:textSize="@dimen/button_text_size" />
 
 
                         <pl.polsl.aeiimap.views.LightTextButton
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
                             android:layout_weight="1"
-                            android:background="@color/map_hall" />
+                            android:background="@color/map_hall"
+                            android:textSize="@dimen/button_text_size" />
                     </LinearLayout>
 
 
@@ -372,8 +395,9 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="2"
+                        android:background="@drawable/selector_button_green"
                         android:text="103"
-                        android:background="@drawable/selector_button_green" />
+                        android:textSize="@dimen/button_text_size" />
 
 
                     <pl.polsl.aeiimap.views.LightTextButton
@@ -381,102 +405,115 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
+                        android:background="@drawable/selector_button_pink"
                         android:text="104"
-                        android:background="@drawable/selector_button_pink" />
+                        android:textSize="@dimen/button_text_size" />
 
                     <pl.polsl.aeiimap.views.LightTextButton
                         android:id="@+id/fragment_first_floor_105"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:text="105"
                         android:layout_weight="1"
-                        android:background="@drawable/selector_button_pink" />
+                        android:background="@drawable/selector_button_pink"
+                        android:text="105"
+                        android:textSize="@dimen/button_text_size" />
 
                     <pl.polsl.aeiimap.views.LightTextButton
                         android:id="@+id/fragment_first_floor_106"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
+                        android:background="@drawable/selector_button_pink"
                         android:text="106"
-                        android:background="@drawable/selector_button_pink" />
+                        android:textSize="@dimen/button_text_size" />
 
                     <pl.polsl.aeiimap.views.LightTextButton
                         android:id="@+id/fragment_first_floor_107"
                         android:layout_width="0dp"
-                        android:text="107"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:background="@drawable/selector_button_pink" />
+                        android:background="@drawable/selector_button_pink"
+                        android:text="107"
+                        android:textSize="@dimen/button_text_size" />
 
                     <pl.polsl.aeiimap.views.LightTextButton
                         android:id="@+id/fragment_first_floor_108"
                         android:layout_width="0dp"
-                        android:text="108"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:background="@drawable/selector_button_pink" />
+                        android:background="@drawable/selector_button_pink"
+                        android:text="108"
+                        android:textSize="@dimen/button_text_size" />
 
                     <pl.polsl.aeiimap.views.LightTextButton
                         android:id="@+id/fragment_first_floor_109"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
+                        android:background="@drawable/selector_button_pink"
                         android:text="109"
-                        android:background="@drawable/selector_button_pink" />
+                        android:textSize="@dimen/button_text_size" />
 
                     <pl.polsl.aeiimap.views.LightTextButton
                         android:id="@+id/fragment_first_floor_floor_c"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:background="@drawable/selector_button_turquoise" />
+                        android:background="@drawable/selector_button_turquoise"
+                        android:textSize="@dimen/button_text_size" />
 
                     <pl.polsl.aeiimap.views.LightTextButton
                         android:id="@+id/fragment_first_floor_lift_c"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:background="@drawable/selector_button_turquoise" />
+                        android:background="@drawable/selector_button_turquoise"
+                        android:textSize="@dimen/button_text_size" />
 
                     <pl.polsl.aeiimap.views.LightTextButton
                         android:id="@+id/fragment_first_floor_110_111"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="2"
+                        android:background="@drawable/selector_button_pink"
                         android:text="110-111"
-                        android:background="@drawable/selector_button_pink" />
+                        android:textSize="@dimen/button_text_size" />
 
                     <pl.polsl.aeiimap.views.LightTextButton
                         android:id="@+id/fragment_first_floor_112"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:text="112"
                         android:layout_weight="1"
-                        android:background="@drawable/selector_button_pink" />
+                        android:background="@drawable/selector_button_pink"
+                        android:text="112"
+                        android:textSize="@dimen/button_text_size" />
 
                     <pl.polsl.aeiimap.views.LightTextButton
                         android:id="@+id/fragment_first_floor_113"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
+                        android:background="@drawable/selector_button_pink"
                         android:text="113"
-                        android:background="@drawable/selector_button_pink" />
+                        android:textSize="@dimen/button_text_size" />
 
                     <pl.polsl.aeiimap.views.LightTextButton
                         android:id="@+id/fragment_first_floor_114"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
+                        android:background="@drawable/selector_button_pink"
                         android:text="114"
-                        android:background="@drawable/selector_button_pink" />
+                        android:textSize="@dimen/button_text_size" />
 
                     <pl.polsl.aeiimap.views.LightTextButton
                         android:id="@+id/fragment_first_floor_115"
                         android:layout_width="0dp"
-                        android:text="115"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:background="@drawable/selector_button_pink" />
+                        android:background="@drawable/selector_button_pink"
+                        android:text="115"
+                        android:textSize="@dimen/button_text_size" />
 
 
                 </LinearLayout>
@@ -503,97 +540,109 @@
                         android:id="@+id/fragment_first_floor_125"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:text="125"
                         android:layout_weight="1"
-                        android:background="@drawable/selector_button_pink" />
+                        android:background="@drawable/selector_button_pink"
+                        android:text="125"
+                        android:textSize="@dimen/button_text_size" />
 
                     <pl.polsl.aeiimap.views.LightTextButton
                         android:id="@+id/fragment_first_floor_124"
                         android:layout_width="0dp"
-                        android:text="124"
                         android:layout_height="match_parent"
                         android:layout_weight="2"
-                        android:background="@drawable/selector_button_green" />
+                        android:background="@drawable/selector_button_green"
+                        android:text="124"
+                        android:textSize="@dimen/button_text_size" />
 
                     <pl.polsl.aeiimap.views.LightTextButton
                         android:id="@+id/fragment_first_floor_123"
                         android:layout_width="0dp"
-                        android:text="123"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:background="@drawable/selector_button_green" />
+                        android:background="@drawable/selector_button_green"
+                        android:text="123"
+                        android:textSize="@dimen/button_text_size" />
 
                     <pl.polsl.aeiimap.views.LightTextButton
                         android:id="@+id/fragment_first_floor_122"
                         android:layout_width="0dp"
-                        android:text="122"
                         android:layout_height="match_parent"
                         android:layout_weight="2"
-                        android:background="@drawable/selector_button_green" />
+                        android:background="@drawable/selector_button_green"
+                        android:text="122"
+                        android:textSize="@dimen/button_text_size" />
 
                     <pl.polsl.aeiimap.views.LightTextButton
                         android:id="@+id/fragment_first_floor_121"
                         android:layout_width="0dp"
-                        android:text="121"
                         android:layout_height="match_parent"
                         android:layout_weight="2"
-                        android:background="@drawable/selector_button_green" />
+                        android:background="@drawable/selector_button_green"
+                        android:text="121"
+                        android:textSize="@dimen/button_text_size" />
 
                     <pl.polsl.aeiimap.views.LightTextButton
                         android:id="@+id/fragment_first_floor_120"
-                        android:text="120"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:background="@drawable/selector_button_pink" />
+                        android:background="@drawable/selector_button_pink"
+                        android:text="120"
+                        android:textSize="@dimen/button_text_size" />
 
                     <pl.polsl.aeiimap.views.LightTextButton
                         android:id="@+id/fragment_first_floor_119a"
                         android:layout_width="0dp"
-                        android:text="119a"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:background="@drawable/selector_button_pink" />
+                        android:background="@drawable/selector_button_pink"
+                        android:text="119a"
+                        android:textSize="@dimen/button_text_size" />
 
                     <pl.polsl.aeiimap.views.LightTextButton
                         android:id="@+id/fragment_first_floor_119b"
                         android:layout_width="0dp"
-                        android:text="119b"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:background="@drawable/selector_button_pink" />
+                        android:background="@drawable/selector_button_pink"
+                        android:text="119b"
+                        android:textSize="@dimen/button_text_size" />
 
                     <pl.polsl.aeiimap.views.LightTextButton
                         android:id="@+id/fragment_first_floor_118"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:text="118"
                         android:layout_weight="1"
-                        android:background="@drawable/selector_button_pink" />
+                        android:background="@drawable/selector_button_pink"
+                        android:text="118"
+                        android:textSize="@dimen/button_text_size" />
 
                     <pl.polsl.aeiimap.views.LightTextButton
                         android:id="@+id/fragment_first_floor_117"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:text="117"
                         android:layout_weight="1"
-                        android:background="@drawable/selector_button_green" />
+                        android:background="@drawable/selector_button_green"
+                        android:text="117"
+                        android:textSize="@dimen/button_text_size" />
 
                     <pl.polsl.aeiimap.views.LightTextButton
                         android:id="@+id/fragment_first_floor_116a"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:text="116a"
                         android:layout_weight="1"
-                        android:background="@drawable/selector_button_green" />
+                        android:background="@drawable/selector_button_green"
+                        android:text="116a"
+                        android:textSize="@dimen/button_text_size" />
 
                     <pl.polsl.aeiimap.views.LightTextButton
                         android:id="@+id/fragment_first_floor_116b"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="2"
+                        android:background="@drawable/selector_button_green"
                         android:text="116b"
-                        android:background="@drawable/selector_button_green" />
+                        android:textSize="@dimen/button_text_size" />
 
                 </LinearLayout>
 

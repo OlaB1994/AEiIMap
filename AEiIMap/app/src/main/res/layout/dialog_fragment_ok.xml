@@ -13,28 +13,25 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_gravity="center">
+            android:layout_gravity="center"
+            android:orientation="vertical">
 
             <pl.polsl.aeiimap.views.LightTextView
                 android:id="@+id/dialog_fragment_info_title_tv"
                 android:layout_width="@dimen/text_max_width"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/normal_margin"
-                android:text="504"
                 android:gravity="center"
-                android:textSize="@dimen/title_text_size"
-                />
+                android:text="504"
+                android:textSize="@dimen/title_text_size" />
 
             <TextView
                 android:id="@+id/dialog_fragment_info_owner_tv"
                 android:layout_width="@dimen/text_max_width"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/normal_margin"
                 android:gravity="center"
                 android:text="504"
-                android:textSize="@dimen/title_text_size"
-                />
+                android:textSize="@dimen/title_text_size" />
         </LinearLayout>
 
         <LinearLayout
@@ -44,12 +41,15 @@
             android:orientation="horizontal">
 
             <ImageView
+                android:id="@+id/dialog_fragment_iv"
                 android:layout_width="@dimen/picture_width"
                 android:layout_height="@dimen/picture_height"
-                android:id="@+id/dialog_fragment_iv"
                 android:background="@android:color/transparent"
                 android:scaleType="fitCenter" />
 
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
             <TextView
                 android:id="@+id/dialog_fragment_room_information"
                 android:layout_width="@dimen/picture_width"
@@ -58,16 +58,17 @@
                 android:gravity="center"
                 android:text="Lorem ipsum dolor sit amet"
                 android:textSize="@dimen/info_text_size" />
-
+            </ScrollView>
         </LinearLayout>
 
         <pl.polsl.aeiimap.views.LightTextButton
             android:id="@+id/dialog_fragment_info_ok_btn"
             android:layout_width="@dimen/button_size"
             android:layout_height="@dimen/button_size"
-            android:layout_margin="@dimen/normal_margin"
             android:layout_gravity="center"
-            android:text="OK" />
+            android:layout_marginBottom="@dimen/normal_margin"
+            android:text="OK"
+            android:textSize="@dimen/button_text_size" />
     </LinearLayout>
 
 
