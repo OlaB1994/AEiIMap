@@ -13,7 +13,7 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 import pl.polsl.aeiimap.R;
 import pl.polsl.aeiimap.dialogs.InfoDialogFragment;
-import pl.polsl.aeiimap.views.ZoomableLinearLayout;
+import pl.polsl.aeiimap.views.ZoomableRelativeLayout;
 
 /**
  * Created by aleksandrabienioszek on 28.02.2017.
@@ -23,7 +23,7 @@ public class GroundFloorFragment extends Fragment {
     private final int GROUND_FLOOR = 0;
 
     @BindView(R.id.fragment_ground_floor_main_ll)
-    ZoomableLinearLayout zoomableLinearLayout;
+    ZoomableRelativeLayout zoomableRelativeLayout;
 
     @OnClick(R.id.fragment_ground_floor_1)
     public void on1() {
@@ -164,21 +164,21 @@ public class GroundFloorFragment extends Fragment {
 
     @OnClick(R.id.fragment_ground_floor_25)
     public void on25() {
-        InfoDialogFragment.newInstance(getContext(), GROUND_FLOOR, 25).show(getActivity().getFragmentManager(),
+        InfoDialogFragment.newInstance(getContext(), GROUND_FLOOR, 26).show(getActivity().getFragmentManager(),
                 InfoDialogFragment.class.getName());
     }
 
 
     @OnClick(R.id.fragment_ground_floor_26)
     public void on26() {
-        InfoDialogFragment.newInstance(getContext(), GROUND_FLOOR, 26).show(getActivity().getFragmentManager(),
+        InfoDialogFragment.newInstance(getContext(), GROUND_FLOOR, 25).show(getActivity().getFragmentManager(),
                 InfoDialogFragment.class.getName());
     }
 
 
     @OnClick(R.id.fragment_ground_floor_bufet)
     public void onBufet() {
-        InfoDialogFragment.newInstance(getContext(), GROUND_FLOOR, 1007).show(getActivity().getFragmentManager(),
+        InfoDialogFragment.newInstance(getContext(), GROUND_FLOOR, 1009).show(getActivity().getFragmentManager(),
                 InfoDialogFragment.class.getName());
     }
 
@@ -227,10 +227,10 @@ public class GroundFloorFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_ground_floor, container, false);
         ButterKnife.bind(this, view);
         //initView();
-        zoomableLinearLayout.setOnTouchListener(new View.OnTouchListener() {
+        zoomableRelativeLayout.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
-                zoomableLinearLayout.init(getContext());
+                zoomableRelativeLayout.init(getContext());
                 return false;
             }
         });

@@ -5,13 +5,13 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.ScaleGestureDetector;
 import android.view.View;
-import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 
 /**
  * Created by aleksandrabienioszek on 28.02.2017.
  */
 
-public class ZoomableLinearLayout extends LinearLayout implements ScaleGestureDetector.OnScaleGestureListener {
+public class ZoomableRelativeLayout extends RelativeLayout implements ScaleGestureDetector.OnScaleGestureListener {
 
         private enum Mode {
             NONE,
@@ -34,17 +34,17 @@ public class ZoomableLinearLayout extends LinearLayout implements ScaleGestureDe
         private float prevDx = 0f;
         private float prevDy = 0f;
 
-        public ZoomableLinearLayout(Context context) {
+        public ZoomableRelativeLayout(Context context) {
             super(context);
             init(context);
         }
 
-        public ZoomableLinearLayout(Context context, AttributeSet attrs) {
+        public ZoomableRelativeLayout(Context context, AttributeSet attrs) {
             super(context, attrs);
             init(context);
         }
 
-        public ZoomableLinearLayout(Context context, AttributeSet attrs, int defStyle) {
+        public ZoomableRelativeLayout(Context context, AttributeSet attrs, int defStyle) {
             super(context, attrs, defStyle);
             init(context);
         }

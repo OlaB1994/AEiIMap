@@ -13,7 +13,7 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 import pl.polsl.aeiimap.R;
 import pl.polsl.aeiimap.dialogs.InfoDialogFragment;
-import pl.polsl.aeiimap.views.ZoomableLinearLayout;
+import pl.polsl.aeiimap.views.ZoomableRelativeLayout;
 
 /**
  * Created by aleksandrabienioszek on 28.02.2017.
@@ -23,7 +23,7 @@ public class FirstFloorFragment extends Fragment {
     private final int FIRST_FLOOR = 1;
 
     @BindView(R.id.fragment_first_floor_main_ll)
-    ZoomableLinearLayout zoomableLinearLayout;
+    ZoomableRelativeLayout zoomableRelativeLayout;
 
     @OnClick(R.id.fragment_first_floor_101)
     public void on101() {
@@ -226,7 +226,7 @@ public class FirstFloorFragment extends Fragment {
 
     @OnClick(R.id.fragment_first_floor_bufet)
     public void onBufet() {
-        InfoDialogFragment.newInstance(getContext(), FIRST_FLOOR, 1009).show(getActivity().getFragmentManager(),
+        InfoDialogFragment.newInstance(getContext(), FIRST_FLOOR, 1006).show(getActivity().getFragmentManager(),
                 InfoDialogFragment.class.getName());
     }
 
@@ -266,10 +266,10 @@ public class FirstFloorFragment extends Fragment {
                              @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_first_floor, container, false);
         ButterKnife.bind(this, view);
-        zoomableLinearLayout.setOnTouchListener(new View.OnTouchListener() {
+        zoomableRelativeLayout.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
-                zoomableLinearLayout.init(getContext());
+                zoomableRelativeLayout.init(getContext());
                 return false;
             }
         });

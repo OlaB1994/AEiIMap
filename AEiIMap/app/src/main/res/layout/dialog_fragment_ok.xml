@@ -16,7 +16,7 @@
             android:layout_gravity="center"
             android:orientation="vertical">
 
-            <pl.polsl.aeiimap.views.LightTextView
+            <TextView
                 android:id="@+id/dialog_fragment_info_title_tv"
                 android:layout_width="@dimen/text_max_width"
                 android:layout_height="wrap_content"
