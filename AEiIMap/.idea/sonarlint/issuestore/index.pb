@@ -23,8 +23,6 @@ f
 6app/src/main/java/pl/polsl/aeiimap/views/TypeFace.java,b/5/b5ffbd32b3d7f444215f2779fc6397aa0ca61a9d
 r
 Bapp/src/main/java/pl/polsl/aeiimap/dialogs/InfoDialogFragment.java,7/2/720f369c677838364040caa3dc3800cc9441902e
-h
-8app/src/main/java/pl/polsl/aeiimap/views/TextButton.java,7/3/7328d97e78bcb5c7b6a383a0b3e8ca05e567a58c
 k
 ;app/src/main/java/pl/polsl/aeiimap/views/LightTextView.java,1/d/1de0df92e130e2c79e61a4c0a357b8dce860c89e
 c
